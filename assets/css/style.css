@@ -127,3 +127,6 @@ html {
   margin-bottom: 10px;
   text-align: center;
 }
+
+#map {min-height: 360px;
+min-width: 600px;}
