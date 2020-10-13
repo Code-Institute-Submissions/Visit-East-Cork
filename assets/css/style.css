@@ -173,5 +173,16 @@ height: 400px;
     margin-top: 60px;
     min-width: 300px;
     max-width: 300px;
-   
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
 }
