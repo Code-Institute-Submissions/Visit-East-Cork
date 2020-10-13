@@ -121,12 +121,21 @@ html {
 .jumbotron {
   margin-top: 30px;
   background-color: rgba(0, 136, 122, 0.5);
-  max-width: 650px;
+  max-width: auto;
   color: #ffffff;
   font-weight: bolder;
   margin-bottom: 10px;
   text-align: center;
 }
 
+.footer-item {
+    padding-top: 50px;
+}
+
+.social {
+    font-size: 32px;
+}
+/* ---------------Maps Section------------------- */
 #map {min-height: 360px;
-min-width: 600px;}
+min-width: auto;}
+
