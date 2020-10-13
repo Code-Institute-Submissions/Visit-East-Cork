@@ -77,50 +77,15 @@ html {
 }
 
 /* ------------------------Main Images Carousel ---------------------*/
-.main-image {
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
 
 .home-image {
-  background: url("../images/cobh.jpg") no-repeat center fixed;
+  background: url("../images/cobhharbourjpg.jpg") no-repeat center fixed;
   background-size: cover;
-}
-
-.main-image {
-  height: auto;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.hero-container {
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  position: relative;
-  -webkit-animation-name: hero-zoom;
-  animation-name: hero-zoom;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
 }
 
 .jumbotron {
   margin-top: 30px;
-  background-color: rgba(0, 136, 122, 0.5);
+  background-color: rgba(145, 236, 227, 0.5);
   max-width: auto;
   color: #ffffff;
   font-weight: bolder;
@@ -128,14 +93,73 @@ html {
   text-align: center;
 }
 
+.main-image {
+  height: auto;
+  width: 100%;
+  overflow: ;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.hero-container {
+height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-animation-name: hero-zoom;
+          animation-name: hero-zoom;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes hero-zoom {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+@keyframes hero-zoom {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+/* -----------------------footer----------------------------- */
 .footer-item {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .social {
-    font-size: 32px;
+  font-size: 32px;
 }
 /* ---------------Maps Section------------------- */
-#map {min-height: 360px;
-min-width: auto;}
+#map {
+  min-height: 360px;
+  min-width: auto;
+}
 
+.map-section {
+    margin-top: 100px;
+    padding-top: 300px;
+}
