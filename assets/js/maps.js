@@ -53,23 +53,23 @@ function loadMap() {
       content: "<img src='assets/images/map-images/bakalo_150px.jpg'><h4>Bakalo Greek Eatery</h4><a href='index.html#bakalo-info'>Click here to learn more about Bakalo Greek Eatery</a>",
     },
     {
-      latlong: { lat: 37.4467, lng: 25.3289 }, // Mykonos Town
-      iconImage: "assets/images/area.png",
+      latlong: { lat: 51.8986795, lng: -8.30035294 }, // Fota Golf Club
+      iconImage: "assets/images/golfing.png",
       content: "<img src='assets/images/map-images/mykonos-town_150px.jpg'><h4>Mykonos Town</h4><a href='index.html#mykonos-town-info'>Click here to learn more about Mykonos Town</a>",
     },
     {
-      latlong: { lat: 37.4235, lng: 25.3233 }, //Ornos
-      iconImage: "assets/images/area.png",
+      latlong: { lat: 51.90948055, lng: -8.06539906 }, //Castlemartyr Golf Club
+      iconImage: "assets/images/golfing.png",
       content: "<img src='assets/images/map-images/ornos_150px.jpg'><h4>Ornos</h4><a href='index.html#ornos-info'>Click here to learn more about Ornos</a>",
     },
     {
-      latlong: { lat: 37.4475, lng: 25.3912 }, //Ano Mera
-      iconImage: "assets/images/area.png",
-      content: "<img src='assets/images/map-images/ano_150px.jpg'><h4>Ano Mera</h4><a href='index.html#ano-info'>Click here to learn more Ano Mera</a>",
+      latlong: { lat: 51.8295455, lng: -8.0142264 }, //Ballycotton Cliff Walk
+      iconImage: "assets/images/walkingtour.png",
+      content: "<img src='assets/images/map-images/platis_150px.jpg'><h4>Platis Gialos</h4><a href='index.html#platis-info'>Click here to learn more about Platis Gialos</a>",
     },
     {
-      latlong: { lat: 37.4138, lng: 25.347 }, //Platis Gialos
-      iconImage: "assets/images/area.png",
+      latlong: { lat: 51.8583306964, lng: -8.00319395652 }, //Garryvoe Strand
+      iconImage: "assets/images/walkingtour.png",
       content: "<img src='assets/images/map-images/platis_150px.jpg'><h4>Platis Gialos</h4><a href='index.html#platis-info'>Click here to learn more about Platis Gialos</a>",
     },
   ];
