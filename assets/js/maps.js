@@ -15,7 +15,7 @@ function loadMap() {
     {
       latlong: { lat: 51.9004, lng: -8.2923 }, // Fota Island Resort
       iconImage: "assets/images/hotel.png",
-      content: "<img src='assets/images/fota.jpg'><h4>Fota Island Resort</h4><a href='index.html#windmills-info'>Click here to learn more about Mykonos Windmills</a>",
+      content: "<img src='assets/images/fotaresortsm.jpg'><h4>Fota Island Resort</h4><a href='index.html#windmills-info'>Click here to learn more about Fota Island Resort</a>",
     },
     {
       latlong: { lat: 51.9102, lng: -8.0538 }, //Castlemartyr Resort
