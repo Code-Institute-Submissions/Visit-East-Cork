@@ -2,8 +2,8 @@
 
 function loadMap() {
   var options = {
-    zoom: 10,
-    center: { lat: 51.9143, lng: -8.1726 },
+    zoom: 11,
+    center: { lat: 51.8631, lng: -8.1212 },
   };
 
   // Code as instructed by Google Documentation along with following the YouTube Tutorial by Traversy Media. Link in README
@@ -125,25 +125,33 @@ function loadMap() {
   // Code as instructed by Google Documentation along with YouTube Tutorial by Develop Mindfully. Link in ReadMe
 
   // Search Box
-  const input = document.getElementById("search");
-  const autocomplete = new google.maps.places.Autocomplete(input);
+var defaultBounds = new google.maps.LatLngBounds(
+  new google.maps.LatLng(51.8179, -8.3915),
+  new google.maps.LatLng(51.9543, -7.8472));
+
+  var input = document.getElementById("search");
+  var options = {
+  bounds: defaultBounds,
+  types: ['establishment']
+};
+  var autocomplete = new google.maps.places.Autocomplete(input, options);
   // Bind the map's bounds (viewport) property to the autocomplete object,
   // so that the autocomplete requests use the current map bounds for the
   // bounds option in the request.
-  autocomplete.bindTo("bounds", map);
+  autocomplete.bindTo("defaultBounds", map);
   // Set the data fields to return when the user selects a place.
   autocomplete.setFields(["address_components", "geometry", "icon", "name"]);
-  const infowindow = new google.maps.InfoWindow();
-  const infowindowContent = document.getElementById("infowindow-content");
+  var infowindow = new google.maps.InfoWindow();
+  var infowindowContent = document.getElementById("infowindow-content");
   infowindow.setContent(infowindowContent);
-  const marker = new google.maps.Marker({
+  var marker = new google.maps.Marker({
     map,
     anchorPoint: new google.maps.Point(0, -29),
   });
   autocomplete.addListener("place_changed", () => {
     infowindow.close();
     marker.setVisible(false);
-    const place = autocomplete.getPlace();
+    var place = autocomplete.getPlace();
 
     if (!place.geometry) {
       // User entered the name of a Place that was not suggested and
@@ -182,4 +190,20 @@ function loadMap() {
     infowindow.open(map, marker);
   });
  
+ $(".towns").click(function () {
+        
+        map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
+        map.setZoom(12);
+    });
+    const towns = [
+        ["midleton", 51.9143, -8.1726],
+        ["ballycotton", 51.8299, -8.0098],
+        ["castlemartyr", 51.9119, -8.0535],
+        ["cobh", 51.8503, -8.2943],
+        ["youghal", 51.9543, -7.8472],
+        
+    ];
+
+    
+
 }
