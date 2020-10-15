@@ -199,11 +199,11 @@ var defaultBounds = new google.maps.LatLngBounds(
         ["midleton", 51.9143, -8.1726],
         ["ballycotton", 51.8299, -8.0098],
         ["castlemartyr", 51.9119, -8.0535],
-        ["cobh", 51.8503, -8.2943],
-        ["youghal", 51.9543, -7.8472],
-        
+        ["cobh", 51.8503, -8.2943],        
     ];
 
-    
-
+    $(".reset-state").click(function() {
+  infowindow.close();
+  map.fitBounds(defaultBounds);
+})
 }
