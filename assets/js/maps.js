@@ -1,47 +1,117 @@
-//   JavaScript as per Google Maps API Documentation and course content
+//Code as instructed via Google Maps & Course Material
 
-  function loadMap2() {
-    let map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 11,
-        center: {
-            lat: 51.9143,
-            lng: -8.1726,
-        },
+function loadMap() {
+  var options = {
+    zoom: 10,
+    center: { lat: 51.9143, lng: -8.1726 },
+  };
+
+
+// Code as instructed by Google Documentation along with following the YouTube Tutorial by Traversy Media. Link in README
+
+  var map = new google.maps.Map(document.getElementById("map"), options);
+
+  var markers = [
+    {
+      latlong: { lat: 51.9004, lng: -8.2923 }, // Fota Island Resort
+      iconImage: "assets/images/attraction.png",
+      content: "<img src='assets/images/map-images/windmills_150px.jpg'><h4>Mykonos Windmills</h4><a href='index.html#windmills-info'>Click here to learn more about Mykonos Windmills</a>",
+    },
+    {
+      latlong: { lat: 51.9102, lng: -8.0538 }, //Castlemartyr Resort
+      iconImage: "assets/images/attraction.png",
+      content: "<img src='assets/images/map-images/lighthouse_150px.jpg'><h4>Armenistis Lighthouse</h4><a href='index.html#armenistis-info'>Click here to learn more about Armenistis Lighthouse</a>",
+    },
+    {
+      latlong: { lat: 37.4466, lng: 25.326 }, //Little Venice
+      iconImage: "assets/images/attraction.png",
+      content: "<img src='assets/images/map-images/little_venice_150px.jpg'><h4>Little Venice</h4><a href='index.html#little-venice-info'>Click here to learn more about Little Venice</a>",
+    },
+    {
+      latlong: { lat: 37.4471, lng: 25.3257 }, //Panagia Paraportiani
+      iconImage: "assets/images/attraction.png",
+      content: "<img src='assets/images/map-images/church_150px.jpg'><h4>Panagia Paraportiani</h4><a href='index.html#panagia-info'>Click here to learn more about Panagia Paraportiani</a>",
+    },
+    {
+      latlong: { lat: 37.4215, lng: 25.3113 }, // Hippie Fish
+      iconImage: "assets/images/restaurant.png",
+      content: "<img src='assets/images/map-images/hippie-fish_150px.jpg'><h4>Hippie Fish</h4><a href='index.html#hippie-fish-info'>Click here to learn more about Hippie Fish</a>",
+    },
+    {
+      latlong: { lat: 37.447133, lng: 25.327103 }, //Kounelas Fish Taverna
+      iconImage: "assets/images/restaurant.png",
+      content: "<img src='assets/images/map-images/kounelas_150px.jpg'><h4>Kounelas Fish Taverna</h4><a href='index.html#kounelas-info'>Click here to learn more about Kounelas Fish Taverna</a>",
+    },
+    {
+      latlong: { lat: 37.423499, lng: 25.323656 }, //Lefteris GrillHouse
+      iconImage: "assets/images/restaurant.png",
+      content: "<img src='assets/images/map-images/lefteris_150px.jpg'><h4>Lefteris GrillHouse</h4><a href='index.html#lefteris-info'>Click here to learn more about Lefteris GrillHouse</a>",
+    },
+    {
+      latlong: { lat: 37.4438, lng: 25.3284 }, //Bakalo Greek Eatery
+      iconImage: "assets/images/restaurant.png",
+      content: "<img src='assets/images/map-images/bakalo_150px.jpg'><h4>Bakalo Greek Eatery</h4><a href='index.html#bakalo-info'>Click here to learn more about Bakalo Greek Eatery</a>",
+    },
+    {
+      latlong: { lat: 37.4467, lng: 25.3289 }, // Mykonos Town
+      iconImage: "assets/images/area.png",
+      content: "<img src='assets/images/map-images/mykonos-town_150px.jpg'><h4>Mykonos Town</h4><a href='index.html#mykonos-town-info'>Click here to learn more about Mykonos Town</a>",
+    },
+    {
+      latlong: { lat: 37.4235, lng: 25.3233 }, //Ornos
+      iconImage: "assets/images/area.png",
+      content: "<img src='assets/images/map-images/ornos_150px.jpg'><h4>Ornos</h4><a href='index.html#ornos-info'>Click here to learn more about Ornos</a>",
+    },
+    {
+      latlong: { lat: 37.4475, lng: 25.3912 }, //Ano Mera
+      iconImage: "assets/images/area.png",
+      content: "<img src='assets/images/map-images/ano_150px.jpg'><h4>Ano Mera</h4><a href='index.html#ano-info'>Click here to learn more Ano Mera</a>",
+    },
+    {
+      latlong: { lat: 37.4138, lng: 25.347 }, //Platis Gialos
+      iconImage: "assets/images/area.png",
+      content: "<img src='assets/images/map-images/platis_150px.jpg'><h4>Platis Gialos</h4><a href='index.html#platis-info'>Click here to learn more about Platis Gialos</a>",
+    },
+  ];
+
+  // Loop through markers
+  for (var i = 0; i < markers.length; i++) {
+    addMarker(markers[i]);
+  }
+
+  // Add marker function
+
+  function addMarker(props) {
+    var marker = new google.maps.Marker({
+      position: props.latlong,
+      map: map,
     });
 
-// JavaScript to add town markers to map and buttons that allow the map to jump to towns
-    // $(".towns").click(function () {
-        
-    //     map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
-    //     map.setZoom(12);
-    // });
-    // const towns = [
-    //     ["midleton", 51.9143, -8.1726],
-    //     ["ballycotton", 51.8299, -8.0098],
-    //     ["castlemartyr", 51.9119, -8.0535],
-    //     ["cobh", 51.8503, -8.2943],
-    //     ["youghal", 51.9543, -7.8472],
-        
-    // ];
+    // Check for customIcon
+    if (props.iconImage) {
+      // set icon image
+      marker.setIcon(props.iconImage);
+    }
 
-    // let bounds = new google.maps.LatLngBounds();
-    // for (i = 0; i < towns.length; i++) {
-    //     var marker = new google.maps.Marker({
-    //         position: {
-    //             lat: towns[i][1],
-    //             lng: towns[i][2],
-    //         },
-    //         title: towns[i][0],
-    //         map: map,
-    //     });
-    //     bounds.extend(marker.getPosition());
-    // }
-    // map.fitBounds(bounds);
+    // Checks content
+    if (props.content) {
+      var infoWindow = new google.maps.InfoWindow({
+        content: props.content,
+      });
 
+      marker.addListener("click", function () {
+        infoWindow.open(map, marker);
+        infowindow.close();
+      });
+    }
+    
 
-// Add Search Bar to Map that allows users to search for hotels, attractions and restaurants
+  }
 
- var input = document.getElementById("search");
+// Code as instructed by Google Documentation along with YouTube Tutorial by Develop Mindfully. Link in ReadMe
+
+  // Search Box
+  var input = document.getElementById("search");
   var searchBox = new google.maps.places.SearchBox(input);
 
   map.addListener("bounds_changed", function () {
@@ -78,71 +148,4 @@
 
     map.fitBounds(bounds);
   });
-}
- 
-// This example requires the Places library. Include the libraries=places
-// parameter when you first load the API. For example:
-// <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
-function loadMap() {
-  const map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 51.9143, lng: -8.1726 },
-    zoom: 10,
-  });
-  const input = document.getElementById("search");
-  const autocomplete = new google.maps.places.Autocomplete(input);
-  // Bind the map's bounds (viewport) property to the autocomplete object,
-  // so that the autocomplete requests use the current map bounds for the
-  // bounds option in the request.
-  autocomplete.bindTo("bounds", map);
-  // Set the data fields to return when the user selects a place.
-  autocomplete.setFields(["address_components", "geometry", "icon", "name"]);
-  const infowindow = new google.maps.InfoWindow();
-  const infowindowContent = document.getElementById("infowindow-content");
-  infowindow.setContent(infowindowContent);
-  const marker = new google.maps.Marker({
-    map,
-    anchorPoint: new google.maps.Point(0, -29),
-  });
-  autocomplete.addListener("place_changed", () => {
-    infowindow.close();
-    marker.setVisible(false);
-    const place = autocomplete.getPlace();
-
-    if (!place.geometry) {
-      // User entered the name of a Place that was not suggested and
-      // pressed the Enter key, or the Place Details request failed.
-      window.alert("No details available for input: '" + place.name + "'");
-      return;
-    }
-
-    // If the place has a geometry, then present it on a map.
-    if (place.geometry.viewport) {
-      map.fitBounds(place.geometry.viewport);
-    } else {
-      map.setCenter(place.geometry.location);
-      map.setZoom(17); // Why 17? Because it looks good.
-    }
-    marker.setPosition(place.geometry.location);
-    marker.setVisible(true);
-    let address = "";
-
-    if (place.address_components) {
-      address = [
-        (place.address_components[0] &&
-          place.address_components[0].short_name) ||
-          "",
-        (place.address_components[1] &&
-          place.address_components[1].short_name) ||
-          "",
-        (place.address_components[2] &&
-          place.address_components[2].short_name) ||
-          "",
-      ].join(" ");
-    }
-    infowindowContent.children["place-icon"].src = place.icon;
-    infowindowContent.children["place-name"].textContent = place.name;
-    infowindowContent.children["place-address"].textContent = address;
-    infowindow.open(map, marker);
-  });
-
 }
