@@ -29,27 +29,27 @@ function loadMap() {
     },
     {
       latlong: { lat: 51.8720, lng: -8.0160 }, //Garryvoe Hotel
-      iconImage: "assets/images/attraction.png",
+      iconImage: "assets/images/hotel.png",
       content: "<img src='assets/images/map-images/church_150px.jpg'><h4>Panagia Paraportiani</h4><a href='index.html#panagia-info'>Click here to learn more about Panagia Paraportiani</a>",
     },
     {
-      latlong: { lat: 37.4215, lng: 25.3113 }, // Hippie Fish
-      iconImage: "assets/images/restaurant.png",
+      latlong: { lat: 51.8345, lng: -8.2862 }, // Spike Island
+      iconImage: "assets/images/historical.png",
       content: "<img src='assets/images/map-images/hippie-fish_150px.jpg'><h4>Hippie Fish</h4><a href='index.html#hippie-fish-info'>Click here to learn more about Hippie Fish</a>",
     },
     {
-      latlong: { lat: 37.447133, lng: 25.327103 }, //Kounelas Fish Taverna
-      iconImage: "assets/images/restaurant.png",
+      latlong: { lat: 51.8515, lng: -8.2937 }, //Cobh Cathedral
+      iconImage: "assets/images/cathedral.png",
       content: "<img src='assets/images/map-images/kounelas_150px.jpg'><h4>Kounelas Fish Taverna</h4><a href='index.html#kounelas-info'>Click here to learn more about Kounelas Fish Taverna</a>",
     },
     {
-      latlong: { lat: 37.423499, lng: 25.323656 }, //Lefteris GrillHouse
-      iconImage: "assets/images/restaurant.png",
+      latlong: { lat: 51.8910, lng: -8.3070 }, //Fota Wildlife Park
+      iconImage: "assets/images/zoo.png",
       content: "<img src='assets/images/map-images/lefteris_150px.jpg'><h4>Lefteris GrillHouse</h4><a href='index.html#lefteris-info'>Click here to learn more about Lefteris GrillHouse</a>",
     },
     {
-      latlong: { lat: 37.4438, lng: 25.3284 }, //Bakalo Greek Eatery
-      iconImage: "assets/images/restaurant.png",
+      latlong: { lat: 53.3484, lng: -6.2774 }, //Jameson Distillery
+      iconImage: "assets/images/whiskey.png",
       content: "<img src='assets/images/map-images/bakalo_150px.jpg'><h4>Bakalo Greek Eatery</h4><a href='index.html#bakalo-info'>Click here to learn more about Bakalo Greek Eatery</a>",
     },
     {
