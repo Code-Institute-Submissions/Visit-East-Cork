@@ -14,21 +14,21 @@ function loadMap() {
   var markers = [
     {
       latlong: { lat: 51.9004, lng: -8.2923 }, // Fota Island Resort
-      iconImage: "assets/images/attraction.png",
-      content: "<img src='assets/images/map-images/windmills_150px.jpg'><h4>Mykonos Windmills</h4><a href='index.html#windmills-info'>Click here to learn more about Mykonos Windmills</a>",
+      iconImage: "assets/images/hotel.png",
+      content: "<img src='assets/images/fota.jpg'><h4>Fota Island Resort</h4><a href='index.html#windmills-info'>Click here to learn more about Mykonos Windmills</a>",
     },
     {
       latlong: { lat: 51.9102, lng: -8.0538 }, //Castlemartyr Resort
-      iconImage: "assets/images/attraction.png",
+      iconImage: "assets/images/hotel.png",
       content: "<img src='assets/images/map-images/lighthouse_150px.jpg'><h4>Armenistis Lighthouse</h4><a href='index.html#armenistis-info'>Click here to learn more about Armenistis Lighthouse</a>",
     },
     {
-      latlong: { lat: 37.4466, lng: 25.326 }, //Little Venice
-      iconImage: "assets/images/attraction.png",
+      latlong: { lat:  51.8651, lng: -8.0750 }, //Ballymaloe House
+      iconImage: "assets/images/hotel.png",
       content: "<img src='assets/images/map-images/little_venice_150px.jpg'><h4>Little Venice</h4><a href='index.html#little-venice-info'>Click here to learn more about Little Venice</a>",
     },
     {
-      latlong: { lat: 37.4471, lng: 25.3257 }, //Panagia Paraportiani
+      latlong: { lat: 51.8720, lng: -8.0160 }, //Garryvoe Hotel
       iconImage: "assets/images/attraction.png",
       content: "<img src='assets/images/map-images/church_150px.jpg'><h4>Panagia Paraportiani</h4><a href='index.html#panagia-info'>Click here to learn more about Panagia Paraportiani</a>",
     },
@@ -104,7 +104,6 @@ function loadMap() {
         infowindow.close();
       });
     }
-    
 
   }
 
