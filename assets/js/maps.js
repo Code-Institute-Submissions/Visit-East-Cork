@@ -125,20 +125,20 @@ function loadMap() {
   // Code as instructed by Google Documentation along with YouTube Tutorial by Develop Mindfully. Link in ReadMe
 
   // Search Box
-var strictBounds = new google.maps.LatLngBounds(
+var defaultBounds = new google.maps.LatLngBounds(
   new google.maps.LatLng(51.8179, -8.3915),
   new google.maps.LatLng(51.9543, -7.8472));
 
   var input = document.getElementById("search");
   var options = {
-  bounds: strictBounds,
+  bounds: defaultBounds,
   types: ['establishment']
 };
   var autocomplete = new google.maps.places.Autocomplete(input, options);
   // Bind the map's bounds (viewport) property to the autocomplete object,
   // so that the autocomplete requests use the current map bounds for the
   // bounds option in the request.
-  autocomplete.bindTo("strictBounds", map);
+  autocomplete.bindTo("defaultBounds", map);
   // Set the data fields to return when the user selects a place.
   autocomplete.setFields(["address_components", "geometry", "icon", "name"]);
   var infowindow = new google.maps.InfoWindow();
