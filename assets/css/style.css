@@ -155,24 +155,37 @@ height: 400px;
 }
 /* ---------------Maps Section------------------- */
 #map {
-  min-height: 480px;
+    min-height: 300px;
+  max-height: 300px;
   min-width: auto;
 }
 
 .map-section {
-    margin-top: 40px;
-    padding-top: 40px;
+    margin-top: 5px;
+    padding-top: 5px;
 }
 
 .search {
+    text-align: center;
+    max-width: 600px;
     padding-top: 5px;
     margin-top: 5px;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+    }
+
+    .search-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center!important;
+    }
 
 .form-control {
-    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
     min-width: 300px;
-    max-width: auto;
+    max-width: 500px;
 }
 
 #infowindow-content .title {
@@ -190,6 +203,14 @@ height: 400px;
 .card {
     padding-top: 10px;
     margin-top: 20px;
+}
+
+.card-title {
+    margin-top: 15px;
+}
+
+.card-img-top {
+    max-height: 200px;
 }
 
 .map-info {

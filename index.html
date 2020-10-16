@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Visit East Cork</title>
-    <link rel="shortcut icon" type="image/png" href="ADD IMAGE HERE" />
-  </head>
 
-  <body>
-    <!------------------------------------------ Navbar ----------------------------------------->
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>Visit East Cork</title>
+	<link rel="shortcut icon" type="image/png" href="ADD IMAGE HERE" />
+</head>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-      <a class="navbar-brand" href="./index.html">
-        <img class="logo" src="assets/images/new-lion-logo.png" alt="logo" />
-        <p class="d-none d-sm-inline">Visit East Cork</p>
-      </a>
-      <button
+<body>
+	<!------------------------------------------ Navbar ----------------------------------------->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-white">
+		<a class="navbar-brand" href="./index.html">
+			<img class="logo" src="assets/images/new-lion-logo.png" alt="logo" />
+			<p class="d-none d-sm-inline">Visit East Cork</p>
+		</a>
+		<button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -38,307 +30,248 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbar1">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="./index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./programme.html">
-              Programme
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./gallery.html">
-              Gallery
-            </a>
-          </li>
-          <li class="nav-contact">
-            <a class="btn ml-2 btn-nav" href="./contact.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!--------------------------- Main Image ------------------------------------>
-    <section class="main-image">
-      <div class="container-fluid hero-container home-image">
-        <div class="opaque-overlay">&nbsp;</div>
-        <div class="row">
-          <div>
-            <div class="callout jumbotron text-center">
-              <h1>
-                Welcome to Visit East Cork
-              </h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!----------------------------- Map Section ---------------------------------->
-    <section class="container-fluid map-section">
-      <h2 class="text-center towns">Discover East Cork</h2>
-      <p class="text-center">
-        The below map contains recommended hotels, attractions and activities in
-        East Cork
-      </p>
-      <p class="text-center">
-        Click each icon on the map to learn more about what East Cork has to
-        offer
-      </p>
-      <div class="row">
-        <div class="col-12 col-md-4 text-center ">
-         <div class="map-info"><h6>
-            The below buttons will provide you with more information about areas
-            of East Cork, should you wish to discover more information, please
-            use the search box to find restaurants, hotels, bars and attractions
-            in the East Cork area
-          </h6></div> 
-          <div class="col-lg">
-            <button
-              type="button"
-              class="towns"
-              data-lat="51.8503"
-              data-lng="-8.2943"
-            >
-              Cobh
-            </button>
-            <button
-              type="button"
-              class="towns"
-              data-lat="51.9143"
-              data-lng="-8.1726"
-            >
-              Midleton
-            </button>
-            <button
-              type="button"
-              class="towns"
-              data-lat="51.9119"
-              data-lng="-8.0535"
-            >
-              Castlemartyr
-            </button>
-            <button
-              type="button"
-              class="towns"
-              data-lat="51.8299"
-              data-lng="-8.0098"
-            >
-              Ballycotton
-            </button>
-            <button type="button" class="reset-state">Reset</button>
-          </div>
-          <div class="search">
-            <input
-              class="form-control"
+		<div class="collapse navbar-collapse" id="navbar1">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./programme.html">
+						Programme
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./gallery.html">
+						Gallery
+					</a>
+				</li>
+				<li class="nav-contact">
+					<a class="btn ml-2 btn-nav" href="./contact.html">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!--------------------------- Main Image ------------------------------------>
+	<section class="main-image">
+		<div class="container-fluid hero-container home-image">
+			<div class="opaque-overlay">&nbsp;</div>
+			<div class="row">
+				<div>
+					<div class="callout jumbotron text-center">
+						<h1>
+							Welcome to Visit East Cork
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!----------------------------- Map Section ---------------------------------->
+	    <section class="container-fluid map-section">
+		<h2 class="text-center towns">Discover East Cork</h2>
+		<p class="text-center">
+			The below map contains recommended hotels, attractions and activities in
+			East Cork
+		</p>
+		<p class="text-center">
+			Click each icon on the map to learn more about what East Cork has to
+			offer. The below buttons will provide you with more information about areas
+			of East Cork, should you wish to discover more information, please
+			use the search box to find restaurants, hotels, bars and attractions
+			in the East Cork area.
+		</p>
+        <div class="search-box">
+        <div class="col-sm-12 search">
+			<input
+              class="form-control search-box"
               id="search"
               type="text"
               placeholder="Search..."
             />
-          </div>
+           
+		</div>
+         <button class="reset-state">Reset Map</button>
         </div>
+			<div id="map" class="col-12 align-items-center"></div>
+			<div id="infowindow-content">
+				<img src="" width="16" height="16" id="place-icon" />
+				<span id="place-name" class="title"></span><br />
+				<span id="place-address"></span>
+			</div>
 
-        <div id="map" class="col-md-8 align-items-center"></div>
-        <div id="infowindow-content">
-          <img src="" width="16" height="16" id="place-icon" />
-          <span id="place-name" class="title"></span><br />
-          <span id="place-address"></span>
-        </div>
-      </div>
-    </section>
-    <section>
-    <div class="container-fluid card-container" id="attractions-section">
-      <h2 class="text-center">Areas of East Cork</h2>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-        <div class="col mb-4" id="windmills-info">
-          <div class="card">
-            <div class="card-body">
-              <img
-                src="assets/images/windmills.jpg"
-                class="card-img-top"
-                alt="Some of the Windmills of Mykonos attraction"
-              />
-              <h5 class="card-title">Midleton</h5>
-              <a
-                class="btn btn-primary btn-block show-more-btn towns"
-              data-lat="51.9119"
-              data-lng="-8.0535"
-                id="windmills-button"
-                >Tell me more...</a
-              >
-              <p class="card-text invisible" id="windmills-p">
-                This well-known photography spot can be found in Mykonos City
-                and is an iconic feature of Mykonos. The windmills were
-                originally built in the 16th century by the Venetians but ceased
-                production in the 20th century. The windmills are a great point
-                for viewing Mykonos city.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4" id="armenistis-info">
-          <div class="card">
-            <div class="card-body">
-              <img
-                src="assets/images/lighthouse.jpg"
-                class="card-img-top"
-                alt="Armenistis Lighthouse at sunset found in Mykonos"
-              />
-              <h5 class="card-title">Cobh</h5>
-              <a
-                class="btn btn-primary btn-block show-more-btn towns" data-lat="51.8299"
-              data-lng="-8.0098"
-                id="lighthouse-button"
-                >Tell me more...</a
-              >
-              <p class="card-text invisible" id="lighthouse-p">
-                Looking for the perfect place to watch the sunset? Head up to
-                the Armenistis Lighthouse situated on the north-western tip of
-                the island. Built as a tribute to the maritime history of
-                Mykonos, the lighthouse is still fully functional even today.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4" id="little-venice-info">
-          <div class="card">
-            <div class="card-body">
-              <img
-                src="assets/images/little-venice.jpg"
-                class="card-img-top"
-                alt="A view of the area of popular area of Mykonos, Little Venice"
-              />
-              <h5 class="card-title">Castlemartyr</h5>
-              <a
-                class="btn btn-primary btn-block show-more-btn"
-                id="venice-button"
-                >Tell me more...</a
-              >
-              <p class="card-text invisible" id="venice-p">
-                Mykonos was once under Venetian rule (13th century) and Little
-                Venice strongly resembles this Italian city. The colourful, two
-                buildings in this area of Mykonos city are now home to trendy
-                restaurants, bars and cafes, but they still make the perfect
-                (and incredibly popular) selfie backdrop.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4" id="panagia-info">
-          <div class="card">
-            <div class="card-body">
-              <img
-                src="assets/images/church.jpg"
-                class="card-img-top"
-                alt="Panagia Paraportiani, a 5 church building, found in Mykonos Town"
-              />
-              <h5 class="card-title">Garryvoe</h5>
-              <a
-                class="btn btn-primary btn-block show-more-btn"
-                id="panagia-button"
-                >Tell me more...</a
-              >
-              <p class="card-text invisible" id="panagia-p">
-                Found in Mykonos city, this church is among the most
-                photographed in the world! It is located right by the see in the
-                Kastro neighbourhood of the city. What is interesting about this
-                church is that it is actually made of 5 small churches built on
-                top, or next to one another.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+	</section>
 
-    
-    </section>
-    <!-- ----------------------------Footer Section----------------------------->
-    <footer class="container-fluid container-wrapper-blue">
-      <div class="row text-center">
-        <div class="col-sm-4 footer-item">
-          <h2>
-            <i class="far fa-address-card" aria-hidden="true"></i> Contact Us
-          </h2>
-          <ul class="list-unstyled">
-            <li><i class="fas fa-map-marker-alt"></i> Visit East Cork</li>
-            <li>Midleton</li>
-            <li>Co. Cork</li>
-            <li>Ireland</li>
-            <li></li>
-            <li>
-              <i class="fas fa-phone-alt"></i>
-              <a href="tel: 021 -2578000" class="footer-contact"
-                >021 -2578000</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-4 footer-item d-none d-md-block">
-          <a class="navbar-brand" href="./index.html">
-            <img
+	<!-- Areas of East Cork Section -->
+	<section>
+
+		<div class="container-fluid card-container" id="attractions-section">
+
+			<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+				<div class="col mb-4" id="midleton-info">
+					<div class="card">
+						<div class="card-body">
+							<img
+                src="assets/images/jamesonsm.jpg"
+                class="card-img-top"
+                alt="The Midleton Distillery"
+              />
+							<h5 class="card-title text-center">Midleton</h5>
+							<a class="btn btn-primary btn-block show-more-btn towns" data-lat="51.9143"
+								data-lng="-8.1726" id="midleton-button">Show More</a>
+							<p class="card-text text-justify invisible" id="midleton-p">
+								Midleton is a beautiful market town in the heart of East Cork. It is famous for the
+								renowned Midleton Distillery, home of Jameson Whiskey and its premium brand Midleton
+								Rare. Midleton is also home to a country market which is held every Saturday and
+								attracts local agricultutral and artisan producers who sell their products direct to the
+								customer.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4" id="cobh-info">
+					<div class="card">
+						<div class="card-body">
+							<img
+                src="assets/images/cobhcathedralsm.jpg"
+                class="card-img-top"
+                alt="Cobh Cathedral"
+              />
+							<h5 class="card-title text-center">Cobh</h5>
+							<a class="btn btn-primary btn-block show-more-btn towns" data-lat="51.8503"
+								data-lng="-8.2943" id="cobh-button">Show More</a>
+							<p class="card-text text-justify invisible" id="cobh-p">
+								Cobh is a spectacular coastal town on an island in East Cork. It is a popular
+								destination for Cruise Ships and was the last port of call of the infamous Titanic. A
+								visit to the Titanic museum is a must on a visit to this pretty town. Cobh is also home
+								to St. Coleman's Cathedral which sits high above the town with incredible views of the
+								Cork estuary and out to sea. Spike Island is an awars winning historic prison accessed
+								by boat from Cobh pier, this journey will provide you with up close views of Ireland's
+								Naval Base on Haulbowline Island.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4" id="castlemartyr-info">
+					<div class="card">
+						<div class="card-body">
+							<img
+                src="assets/images/castlesm.jpg"
+                class="card-img-top"
+                alt="Castle in Castlemartyr"
+              />
+							<h5 class="card-title">Castlemartyr</h5>
+							<a class="btn btn-primary btn-block show-more-btn towns" data-lat="51.9119"
+								data-lng="-8.0535" id="castlemartyr-button">Show More</a>
+							<p class="card-text invisible" id="castlemartyr-p">
+								FILL HERE
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col mb-4" id="ballycotton-info">
+					<div class="card">
+						<div class="card-body">
+							<img
+                src="assets/images/ballycottoncliffsm.jpg"
+                class="card-img-top"
+                alt="Garryvoe Beach"
+              />
+							<h5 class="card-title">Ballycotton</h5>
+							<a class="btn btn-primary btn-block show-more-btn towns" data-lat="51.8299"
+								data-lng="-8.0098" id="ballycotton-button">Show More</a>
+							<p class="card-text invisible" id="ballycotton-p">
+								Fill Here
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ----------------------------Footer Section----------------------------->
+	<footer class="container-fluid container-wrapper-blue">
+		<div class="row text-center">
+			<div class="col-sm-4 footer-item">
+				<h2>
+					<i class="far fa-address-card" aria-hidden="true"></i> Contact Us
+				</h2>
+				<ul class="list-unstyled">
+					<li><i class="fas fa-map-marker-alt"></i> Visit East Cork</li>
+					<li>Midleton</li>
+					<li>Co. Cork</li>
+					<li>Ireland</li>
+					<li></li>
+					<li>
+						<i class="fas fa-phone-alt"></i>
+						<a href="tel: 021 -2578000" class="footer-contact">021 -2578000</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-4 footer-item d-none d-md-block">
+				<a class="navbar-brand" href="./index.html">
+					<img
               class="logo"
               src="assets/images/new-lion-logo.png"
               alt="logo"
             />
           </a>
-        </div>
-        <div class="col-sm-4 footer-item">
-          <h2>
-            <i class="fas fa-hashtag" aria-hidden="true"></i> Connect With Us
-          </h2>
-          <div class="social-links">
-            <ul class="list-unstyled social">
-              <li class="list-inline-item">
-                <a href="https://www.facebook.com" target="_blank">
-                  <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                  <span class="sr-only">Facebook</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.twitter.com" target="_blank">
-                  <i class="fab fa-twitter" aria-hidden="true"></i>
-                  <span class="sr-only">Twitter</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com" target="_blank">
-                  <i class="fab fa-linkedin-in" aria-hidden="true"></i>
-                  <span class="sr-only">LinkedIn</span>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="https://www.instagram.com" target="_blank">
-                  <i class="fab fa-instagram" aria-hidden="true"></i>
-                  <span class="sr-only">Instagram</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- scripts -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx-4KJIjQTpysQbuBKiyO_xlw5mudx0vM&callback=loadMap"
-    ></script>
-    <script
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx-4KJIjQTpysQbuBKiyO_xlw5mudx0vM&callback=loadMap&libraries=places"
-    ></script>
+			</div>
+			<div class="col-sm-4 footer-item">
+				<h2>
+					<i class="fas fa-hashtag" aria-hidden="true"></i> Connect With Us
+				</h2>
+				<div class="social-links">
+					<ul class="list-unstyled social">
+						<li class="list-inline-item">
+							<a href="https://www.facebook.com" target="_blank">
+								<i class="fab fa-facebook-f" aria-hidden="true"></i>
+								<span class="sr-only">Facebook</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.twitter.com" target="_blank">
+								<i class="fab fa-twitter" aria-hidden="true"></i>
+								<span class="sr-only">Twitter</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.linkedin.com" target="_blank">
+								<i class="fab fa-linkedin-in" aria-hidden="true"></i>
+								<span class="sr-only">LinkedIn</span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="https://www.instagram.com" target="_blank">
+								<i class="fab fa-instagram" aria-hidden="true"></i>
+								<span class="sr-only">Instagram</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- scripts -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script
+		src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+	</script>
+	<script defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx-4KJIjQTpysQbuBKiyO_xlw5mudx0vM&callback=loadMap">
+	</script>
+	<script defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx-4KJIjQTpysQbuBKiyO_xlw5mudx0vM&callback=loadMap&libraries=places">
+	</script>
 
-    <script src="assets/js/maps.js"></script>
-    <script src="assets/js/toggle.js"></script>
-  </body>
+	<script src="assets/js/maps.js"></script>
+	<script src="assets/js/toggle.js"></script>
+</body>
+
 </html>
