@@ -156,8 +156,8 @@ height: 400px;
 }
 /* ---------------Maps Section------------------- */
 #map {
-    min-height: 300px;
-  max-height: 300px;
+    min-height: 350px;
+  max-height: 350px;
   min-width: auto;
 }
 
@@ -211,7 +211,7 @@ height: 400px;
 }
 
 .card-img-top {
-    max-height: 200px;
+    max-height: auto;
 }
 
 .map-info {
