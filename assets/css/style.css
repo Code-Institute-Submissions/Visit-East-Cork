@@ -66,9 +66,10 @@ html {
 }
 
 .btn-card {
-  background-color: #ffffff !important;
+  background-color: rgba(87, 202, 255, 1) !important;
   color: #000000 !important;
-  border-color: #ffffff !important;
+  border-color: rgba(87, 202, 255, 1) !important;
+  margin-bottom: 5px;
 }
 
 .btn-card:hover {

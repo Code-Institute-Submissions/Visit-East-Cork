@@ -92,9 +92,9 @@
             />
            
 		</div>
-         <button class="reset-state">Reset Map</button>
+         <button class="reset-state btn-card">Reset Map</button>
         </div>
-			<div id="map" class="col-12 align-items-center"></div>
+			<div id="map" class="col-12 align-items-center map"></div>
 			<div id="infowindow-content">
 				<img src="" width="16" height="16" id="place-icon" />
 				<span id="place-name" class="title"></span><br />
@@ -112,15 +112,16 @@
 				<div class="col mb-4" id="midleton-info">
 					<div class="card">
 						<div class="card-body">
-							<img
+							
+							<h5 class="card-title text-center">Midleton</h5>
+							<a class="btn btn-card btn-block show-more-btn towns" data-lat="51.9143"
+								data-lng="-8.1726" id="midleton-button">Show More</a>
+							<p class="card-text text-justify invisible" id="midleton-p">
+                            <img
                 src="assets/images/jamesonsm.jpg"
                 class="card-img-top"
                 alt="The Midleton Distillery"
               />
-							<h5 class="card-title text-center">Midleton</h5>
-							<a class="btn btn-primary btn-block show-more-btn towns" data-lat="51.9143"
-								data-lng="-8.1726" id="midleton-button">Show More</a>
-							<p class="card-text text-justify invisible" id="midleton-p">
 								Midleton is a beautiful market town in the heart of East Cork. It is famous for the
 								renowned Midleton Distillery, home of Jameson Whiskey and its premium brand Midleton
 								Rare. Midleton is also home to a country market which is held every Saturday and
