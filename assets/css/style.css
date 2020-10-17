@@ -240,3 +240,8 @@ height: 400px;
 .send-btn {
     margin-top: 25px;
 }
+
+.logo-wrapper {
+    text-align: center;
+    width: 100%;
+}
