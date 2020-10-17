@@ -4,13 +4,15 @@ function sendMail(contactForm) {
         "reply_to": contactForm.emailaddress.value,
         "information_request": contactForm.infosummary.value
     })
-    .then (
+    .then(
         function(response) {
-            console.log("SUCCESS", response);
+            //console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+            alert("Email sent successfully, Thank you!");
         },
         function(error) {
-            console.log("FAILED", error);
+            //console.log("FAILED", error);
+            alert("FAILED!"+error);
         }
-    )
+    );
     return false;
 }
