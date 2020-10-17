@@ -17,5 +17,3 @@ $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Cork&units=metric&A
     let err = textStatus + ", " +error;
     console.log( "Request Failed " + err );
 });
-
-

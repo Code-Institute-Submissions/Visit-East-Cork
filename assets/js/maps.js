@@ -27,7 +27,7 @@ function loadMap() {
       latlong: { lat: 51.8651, lng: -8.075 }, //Ballymaloe House
       iconImage: "assets/images/hotel.png",
       content:
-        "<img src='assets/images/little_venice_150px.jpg'><h4>Ballymaloe House</h4>",
+        "<img src='assets/images/ballymaloesm.jpg'><h4>Ballymaloe House</h4>",
     },
     {
       latlong: { lat: 51.872, lng: -8.016 }, //Garryvoe Hotel
