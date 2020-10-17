@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(".invisible").hide();
 });
 $(".show-more-btn").click(function () {
-  $(this).siblings("p").removeClass('invisible').toggle("fast");
+  $(this).siblings("p").removeClass('invisible').toggle("slow");
 });
 
 
