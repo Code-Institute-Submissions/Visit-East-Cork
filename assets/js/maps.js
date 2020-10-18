@@ -130,6 +130,8 @@ var defaultBounds = new google.maps.LatLngBounds(
   new google.maps.LatLng(51.9543, -7.8472));
 
   var input = document.getElementById("search");
+  var searchBox = new google.maps.places.SearchBox(input);
+        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
   var options = {
   bounds: defaultBounds,
   types: ['establishment']

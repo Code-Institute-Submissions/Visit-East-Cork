@@ -194,7 +194,7 @@ height: 400px;
 .form-control {
     display: flex;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 12px;
     min-width: 300px;
     max-width: 500px;
 }
@@ -256,4 +256,16 @@ height: 400px;
 .logo {
     height: 100px;
     width: 100px;
+}
+
+.reset-state {
+    max-width: 200px;
+    text-align: center;
+}
+
+.reset-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center;
 }
