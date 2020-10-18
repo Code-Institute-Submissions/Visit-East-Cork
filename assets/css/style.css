@@ -158,7 +158,8 @@ height: 400px;
 /* ---------------Maps Section------------------- */
 #map {
     min-height: 350px;
-  max-height: 350px;
+    height: 500px;
+  max-height: 500px;
   min-width: auto;
   box-shadow: 1px 1px;
 }
@@ -173,7 +174,7 @@ height: 400px;
     max-width: 600px;
     padding-top: 5px;
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     }
 
     .temp {
@@ -211,13 +212,18 @@ height: 400px;
 }
 
 .card {
-    padding-top: 10px;
-    margin-top: 20px;
+    padding-top: 2px;
+    margin-top: 5px;
     box-shadow: 1px 1px;
 }
 
 .card-title {
     margin-top: 15px;
+}
+
+.card-body {
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .card-img-top {
