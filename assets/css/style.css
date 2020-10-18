@@ -14,10 +14,10 @@ html {
 /* The below CSS adjusts the styling and sizing of different navbar elements */
 
 .navbar {
-  padding-left: 20px;
-  padding-right: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
   padding-top: 0px;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
 }
 
 .navbar-nav a {
@@ -37,6 +37,7 @@ html {
 
 .navbar-brand {
   font-size: 32px;
+  margin: 0px;
 }
 
 .navbar-nav {
@@ -244,4 +245,9 @@ height: 400px;
 .logo-wrapper {
     text-align: center;
     width: 100%;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
 }
