@@ -19,7 +19,7 @@ You can view the live website here: [Visit East Cork](https://d-mcalpin.github.i
 Visit East Cork is a business to consumer website that allows users to discover the local area of East Cork and find out about local facilities, businesses and attractions. The Google Maps element contains a number of custom markers with info windows that can be edited. This would allow the website owner the opportunity to generate advertising revenue from recommended locations in the area while also allowing website users the opportunity to interact with the map and find out more information about the area themselves.
 
 ### 1.1 User Stories
-- As a local business owner in the East Cork area, I can showcase my business on the Visit East Cork homepage via the Google Maps API interface. This can display images, informationa and links about my business. 
+- As a local business owner in the East Cork area, I can showcase my business on the Visit East Cork homepage via the Google Maps API interface. This can display images, information and links about my business. 
 
 - As a tourist seeking to find more information about East Cork, I can interact with the map aswell as reading the information about local areas displayed on the homepage. Should I wish to find out more information I can contact the website owner directly from the contact form. I can also view the current weather forecast in Cork.
 
@@ -280,7 +280,7 @@ The following sources were used for code snippets or inspiration throughout the 
 
 - **Images**
     - The Visit East Cork Icon and Logo was sourced from PlumePloume on Pixabay, available [here](https://pixabay.com/vectors/triskell-symbol-celtic-logo-1194004/).
-    - All images for local attractions were sourced from each individual establishment's public Facebook page.
+    - All images for local attractions were sourced from each individual establishment's public Facebook page with the exception of The Ballycotton Cliff Walk which was sourced from Tripadvisor and Garryvoe Beach which was sourced from Twitter.
 
 
 ### 6.3 Acknowledgements
