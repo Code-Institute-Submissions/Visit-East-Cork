@@ -36,17 +36,9 @@ html {
   padding-bottom: 2px;
 }
 
-.logo-wrapper {
-  text-align: center;
-  width: 100%;
-}
 
-.logo {
-  height: 100px;
-  width: 100px;
-}
 
-/*---------------------------------------- Navbar --------------------------------------*/
+/*---------------------------------------- Header --------------------------------------*/
 
 .navbar {
   padding-left: 0px;
@@ -56,12 +48,24 @@ html {
 }
 
 .navbar-brand {
-  font-size: 32px;
+  font-size: 48px;
   margin: 0px;
 }
 
+
 .navbar-nav {
   text-align: center;
+}
+
+.logo-wrapper {
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
 }
 
 /*----------------------------------- Buttons------------------------------- */

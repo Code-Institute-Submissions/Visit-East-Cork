@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+![Visit East Cork logo](assets/images/mockups/readmeLogo.png)
 
 `python3 -m http.server`
 
@@ -11,6 +11,15 @@ The Visit East Cork website is responsive and contains a number of interactive e
 You can view the live website here: [Visit East Cork](https://d-mcalpin.github.io/Visit-East-Cork/)
 
 ![Visit East Cork mockups on various devices](assets/images/mockups/vecMockup.jpg)
+
+## Contents
+
+- <a href="#ux">1. User Experience </a>
+- <a href="#features">2. Features </a>
+- <a href="#tech">3. Technologies Used </a>
+- <a href="#test">4. Testing </a>
+- <a href="#deploy">5. Deployment </a>
+- <a href="#credit">6. Credits </a>
 
 <span id="ux"></span>
 
@@ -62,26 +71,29 @@ The colour scheme for this project is bright and airy so a blue and white theme 
 
 ## 2. Features 
 
-### 2.1 Welcome Image
+### 2.1 Header
+Following the advice of my mentor, it was decided that the header would simply contain the website name and logo centred. As this is a short single page website, a navbar is not neccessary.
+
+### 2.2 Welcome Image
 Users are welcomed to the page with a large hero or welcome image and a Jumbrotron containing a welcome message. The image zooms slowly towards to user when the page loads.
 Text below the main image gives users instructions on how to use the site.
 
-### 2.2 Information Cards with Toggle and Map Zoom Features
+### 2.3 Information Cards with Toggle and Map Zoom Features
 The information cards below the site instructions utilise JQuery Toggle to provide users with information on areas of East Cork. When the user clicks on the "Show More" button on each card, more informaiton will appear about that location and the map will centre on that location also.
 
-### 2.3 Google Maps API
+### 2.4 Google Maps API
 The Google Maps section of the website contains a large map with preloaded, customised markers that show a particular point of interst on the map. When w user clicks on the custom icon, an information window will be displayed showcasing an image of the point of interest and its name.
 
-### 2.4 Google Places Autocomplete Search
+### 2.5 Google Places Autocomplete Search
 A custom search bar is embedded in the top left corner of the map. This search bar allows users to search the area of the map for other points of interest that are not highlighted by custom markers. This search will show local businesses including shops, bars, restaurants, hotels and other businesses within the boandaries of the map.
 
-### 2.5 Contact Form
+### 2.6 Contact Form
 Below the map, a contact form invites users to send a message to the site owner if the require further information. This is a functional and opeerational contact form powered by EmailJS. When users submit their query after filling out the required boxed, a message will display in the browser window telling them if their message was sent successfully or if it failed.
 
-### 2.5 Footer
+### 2.7 Footer
 The footer of the Visit East Cork webpage contains contact informaion and social media links that invite users to keep in contact with the site owner. A weather forecast and current temperature display for the Cork area is also contained within the footer. This is a custom forecast provided by the Openweathermap API.
 
-### 2.6 Features Left to Implement
+### 2.8 Features Left to Implement
 After reading the Google Maps Javascript API, there is an incredible amount of functionality that can be added to custom maps. In order to monetise the website richer and more detailed information on local businesses could be added to the map, this would provide the website owner with more opportunities to showcase local businesses on the Visit East Cork website.
 ***
 <span id="tech"></span>
@@ -297,39 +309,6 @@ The following sources were used for code snippets or inspiration throughout the 
 
 
 
-![Show me more... / Show me less... toggle buttons](assets/readme_docs/testing_toggle.jpg)
-
-![Contact navigation, contact form, and map features](assets/readme_docs/testing_screenshots.jpg)
-
-
-**You can find a full document to all the website testing [by clicking here](assets/readme_docs/testing.pdf)
-
-## Design
-
-**Logo:** 
-I decided to stick with a traditional Greek design for the logo with a Greek-style font and bright blue colour. The font is called Adonais and is 100% free to use from the website [DaFont](https://www.dafont.com/) 
-
-**Fonts**  
-I wanted to keep the rest of the site nice, clear and simple. Therefore, I decided to pair the Google fonts Raleway Light for the headers with Opens Sans Regular for the body text. Both fonts were assigned the backup front of sans-serif.
-
-**Colours:** 
-In keeping with a clean and clear website, I opted to use just one main accent colour to complement the lovely colours of the photos. Greece, and the Greek Islands, are known for this bright blue, so I chose one which I felt was a nice modern blue, and once which would be great for text to set out on. This was coupled with a light grey for hover state on the navbar, as well as a dark grey and off white for the copy.
-
-* Blue accent colour: #0086FF
-* Hover grey nav bar: #d0d0d5
-* Off White: #F8F8FF
-* Grey: #222222
-
-## Deployment
-I deployed Mykonos Recommended GitHub pages using the following steps:
-1. Logging into my GitHub account and locating my repository
-1. Clicking on the Settings icon (near the top right of the page)
-1. Scrolling down the page to locate the 'GitHub Pages' section
-1. I selected 'Master branch' in the dropdown
-1. This deployed my project to the URL: https://michellelclement.github.io/mykonos-recommended-MS2/
-
-[Click here to view the live Mykonos Recommended website](https://michellelclement.github.io/mykonos-recommended-MS2/) 
-
 ## Credits
 
 **Content**
@@ -343,19 +322,3 @@ All images used on the website were a mix of my own photographs, Google Images o
 * Apple products mockups for README doc by Vinay Mittal via [Graphic Burger](https://graphicburger.com/)
 * iPhone 6 Mockups for testing and README document obtained from Graphic Burger and created by [p-px](http://p-px.com)
 
-## Acknowledgements
-Google Maps Custom Icons: I used [Maps Icons Collection](https://mapicons.mapsmarker.com) for the custom markers on the map. The website allowed me to customise the markers to my own colourway before implementing on the website.
-
-In addition to assistance from my mentor and the slack community, I also found answers to some of my questions and troubleshooting errors by searching previously answered questions on the [Stack Overflow](https://stackoverflow.com/) website.
-
-A thank you to Murray Bealby for taking the time to look at my project via the Peer Code Review Slack channel and giving a few tips on improving some areas of my project.
-
-Special Thank you to my fantastic mentor ADEGBENGA ADEYE for helping me with my ideas and directing me on how to fix errors and bugs.
-
-**Additional Support**
-Due to the complex nature of Google APIs, I followed a couple of tutorials to help implement adding multiple custom markers with custom icons, plus installing the Google Places with a search bar. Both tutorials were fantastic and really helped to cement how to do this with more explanation on the why, and how, compared to Google’s documentation. I have marked with comments on the map.js file the code which was assisted by both tutorials. In both cases, I implemented as much of the code myself as possible using my knowledge from the course material and Google’s Documentation, and then the tutorials helped implement the exact features and functionality I desired.
-
-* [Google Maps Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw)
-* [Google Maps Places Tutorial](https://www.youtube.com/watch?v=oVr6unKZbg4)
-
-As advised by my mentor, I decided to add a 'Back To Top' scroll button due to the page being quite long on mobile devices. This isn't something which has been covered in the course material, so I followed the instructions to do this as provided by [W3Schools](https://www.w3schools.com/).
