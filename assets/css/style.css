@@ -3,6 +3,7 @@
 
 body {
   font-family: "Josefin Sans", sans-serif;
+  text-align: center;
 }
 
 html {
@@ -197,6 +198,16 @@ height: 400px;
     margin-top: 12px;
     min-width: 300px;
     max-width: 500px;
+    top: 40px !important;
+    left: 0px !important;
+}
+
+.contact-form-control {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    min-width: 300px;
+    max-width: 500px;
 }
 
 #infowindow-content .title {
@@ -268,4 +279,11 @@ height: 400px;
     align-items: center;
     width: 100%;
     text-align: center;
+}
+
+.section-heading {
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    
 }
