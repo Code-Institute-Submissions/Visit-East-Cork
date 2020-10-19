@@ -113,7 +113,7 @@ I used the following languages for the project:
 ### 3.4 APIs
 
 - **[Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview)**
-    - The project uses **Google Maps Javascript** to generate the primary website attraction, the local area map. In order to use this API on your website, a developed must create a billing account and generate an API key. This key and account allows the owner to access the maps database. In order to access places through the Autocomplete Search, the developer must also link the Google Place Library to their API key and billing account. This can be challenging as it is advised that developers restrict their keys do that they are not abused by a third party. This can sometimes cause the Gogole Maps API to fail if Google does not recognise the website that is trying to load the map. 
+    - The project uses **Google Maps Javascript** to generate the primary website attraction, the local area map. In order to use this API on a website, a developed must create a billing account and generate an API key. This key and account allows the owner to access the maps database. In order to access places through the Autocomplete Search, the developer must also link the Google Place Library to their API key and billing account. This can be challenging as it is advised that developers restrict their keys do that they are not abused by a third party. This can sometimes cause the Gogole Maps API to fail if Google does not recognise the website that is trying to load the map. 
 
 - **[EmailJS API](https://www.emailjs.com/)**
     - The project uses **EmailJS** to add functionality to the website contact form. This API was utilised in a Code Institute Project and it allows the developer to link the contact form to their email address and inturn provides a method of communication for the website users. EmailJS requires developers to set up an account and link it to their email address.
@@ -121,49 +121,76 @@ I used the following languages for the project:
 - **[Open Weather Map API](https://openweathermap.org/api)**
     - The project uses **Open Weather Map API** to add weather forecast functionality to the footer of Visit East Cork. Like the Google Maps API, this API requires developers to set up an account and use an API Key to access weather information specific to their area. This is a straightforward process.
 
+### 3.4 IDE
+
+- **[GitPod](https://www.gitpod.io/)**
+    - Gitpod was used to develop the website and style each element before deployment.
+
+### 3.5 External Hosting
+
+- **[GitHub](https://github.com/)**
+    - This project uses the GitHub hosting service and is saved in a GitHub repository.
+
+- **[Google Drive](ttps://drive.google.com/)**
+    - The wireframe PNG files are saved to a Google Drive account and are openly accessible.
+***
+<span id="test"></span>
+
+## 4. Testing
+
+- **[Balsamiq](https://balsamiq.com/)**
+    - I used Balsamiq to design the original wireframes for the project and test how the layout looked. I reverted to Balsamiq when considering changes in the project's design.
+
+- **[GTMetrix](https://gtmetrix.com/)**
+    - GTMetrix was used to test the loading speed of each page and to find out if any elements were creating long loading times.
+
+- **[W3C HTML Validator](https://validator.w3.org/)**
+    - The W3C HTML Validator checked the website for HTML validity errors.
+
+- **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**
+    - The CSS Validator checked for validity errors in the website's CSS page.
+
+- **[Autoprefixer CSS Online](https://autoprefixer.github.io/)**
+    - The Autoprefixer ensured that vendor prefixes were added to my CSS.
+
+- **[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)**
+    - Google Chrome's DevTools were used to inspect elements of the website and adjust them to ensure that they were effective and responsive at different screen sizes. DevTools was also used to identify errors in my code and to test how changing certain elements would effect the overall look and feel of the website.
+
+### 4.2 Testing User Stories
+
+1. As a visitor to East Cork seeking information on the area:
+     - I am given an introduction to the website and how to use it.
+     - I can access information on local areas by clicking the "Show More" button on the Area cards.
+     - The "Show More" button also directs me to the relevant area on the map where I can see local amenities.
+     - I can search for other establishments locally using the search bar.
+     - Should I require assistance or further information, I can contact the site owner via the funcitoning contact form.
 
 
-
-## Scope
-* Users can find the location of recommended attractions, restaurants or areas on a map.
-* Users can read more about each of the recommended attractions, restaurants or areas.
-* Show the users current location on the island and their position near recommended areas
-* Email the site owner for more information
-
-
-## Existing Website Features
-Navigation: The main navigation includes a link to each of the main sections of the site, which answer each of the user questions, and is styled clear, simple and modern.
-
-Google Maps API – Using the Google Maps API, all recommendations will be added as custom markers to an inbuilt map.
-
-Search Google Maps Places – Allowing the ability for the user to search for other places of interest outside those recommended, including restaurants, attractions, beaches and more. This will allow the user to be able to find all they need in the one website rather than using multiple.
-
-Contact Form – The contact form is an easy and direct way for the user to ask a question to the site owner. [EmailJS](https://www.emailjs.com/) sends the email directly from the website to the website owner.
-
-## Features to implement in the future
-There are a couple of features I would like to implement in the future to make the map feature even more user friendly.
-* Auto closing of custom marker labels - Custom markers can be closed by clicking the X in the top right cornder, however I would like them to close automatically when another marker is clicked.
-* Show user location on the map - I would like to add this feature so that a user can easily see their location compared to the recomendations. 
-
-## Technologies Used
-I used a number of languages, frameworks and tools to construct my website. These include;
-* [HTML](https://html.com/)
-* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) 
-* [JavaScript](https://www.javascript.com/) 
-* [JavaQuery](https://jquery.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [GitHub](https://github.com/)
-* [GitPod](https://www.gitpod.io/)
-* [Google Maps API](https://developers.google.com/maps/documentation)
-* [EmailJS](https://www.emailjs.com/)
+2. As a resident of East Cork:
+    - I can find out information about my locality including amenities near me.
+    - I can search for local businesses on the map and then contact those businesses.
+    - I can contact the website owner through the functioning contact form should I require further information the local area.
+    - I can check the upcoming weather forecast for the local area.
 
 
-## Tools Used
-* [Balsamiq](https://balsamiq.com/) - Used to create my wireframes, showing the positioning of elements on varying screen sizes.
-* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html) - Photoshop was used to create the website logo.
-* [W3C HTML Validator](https://validator.w3.org/) - I used this tool to check the validity of my HTML code.
-* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - I used this tool to check the validity of my CSS code.
-* [Autoprefixed](https://autoprefixer.github.io/) - I used this tool to check the prefixes of my CSS code.
+3. As a local business owner:
+    - I can see that the website owner can showcase local businesses through custom map markers.
+    - I can find out which local businesses are promoting their offering on the website.
+    - I can contact the website owner via the functioning contact form to enquire about showcasing my business.
+
+
+### 4.3 Device Testing
+
+I utilised Google Chrome's DevTools to test the responsivness of the website at different screen sizes throughout the project. Once the project was approximately 70% complete, I tested it using a Huawei P9 Lite and an Apple iPhone 11 mobile device and an Acer tablet device. The website worked well on both devices.
+I tested the desktop functionality of the Visit East Cork website on Google Chrome and Microsoft Edge.
+
+#### On screen sizes of tablet size and below:
+- The Leadership Goals logo will only display the lion image and not the text. The navbar will compress into a burger icon with a dropdown effect when pressed. 
+- The two card carousel will be replaced with a single card carousel on the homepage.
+- Cards and divs are responsive and will align with the mobile view. 
+- The galllery will align vertically on the gallery page.
+- The Leadership Goals logo in the footer disappears.
+
 
 
 ## Testing
