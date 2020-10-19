@@ -75,7 +75,7 @@ Following the advice of my mentor, it was decided that the header would simply c
 
 ### 2.2 Welcome Image
 Users are welcomed to the page with a large hero or welcome image and a Jumbrotron containing a welcome message. The image zooms slowly towards to user when the page loads.
-Text below the main image gives users instructions on how to use the site.
+There are three welcome images rotating on a Bootstrap Carousel. Text below the main image gives users instructions on how to use the site.
 
 ### 2.3 Information Cards with Toggle and Map Zoom Features
 The information cards below the site instructions utilise JQuery Toggle to provide users with information on areas of East Cork. When the user clicks on the "Show More" button on each card, more informaiton will appear about that location and the map will centre on that location also.
