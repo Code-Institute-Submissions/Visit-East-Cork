@@ -37,8 +37,8 @@ Based on the Scope Plane, Visit East Cork was developed to provide users with in
 ### 1.5 Skeleton
 A mobile first approach was taken to designing the website. The original wireframes were created using Balsamiq and can be found below:
 
-- Mobile Wireframe PDF - <a href="https://drive.google.com/open?id=139CHAjLGGtWzUlTY-bNublwHJQya23ho" rel="noopener" target="_blank">mobile version in PDF</a>.
-- Desktop Wireframe PDF - <a href="https://drive.google.com/open?id=1ifq59VU_6UHgPFWvrcPonn4IZ5hT-syk" rel="noopener" target="_blank">desktop version in PDF</a>.
+- Mobile Wireframe PDF - <a href="https://drive.google.com/file/d/1TqIiR8u5vYMyz_Q2usJRWyE0L0NCeRrr/view?usp=sharing" rel="noopener" target="_blank">mobile version in PNG</a>.
+- Desktop Wireframe PDF - <a href="https://drive.google.com/file/d/1rjnoTlbCzB_b-Os8TaWMGbwpYFu89ySf/view?usp=sharing" rel="noopener" target="_blank">desktop version in PNG</a>.
 
 The wireframe mockups gave me a basic idea of how best to lay out each individual element that I wanted to incorporate into the project and how that would impact and enhance the user experience. As the project progressed, how best to place each of these elements became apparent.
 
