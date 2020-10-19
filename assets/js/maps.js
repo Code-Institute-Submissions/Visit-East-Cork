@@ -1,4 +1,4 @@
-//Code as learned through via Google Maps Documentation & Course Material
+//Code as learned through via Google Maps Documentation & Course Material. Inspiration taken from michellecclement's Milestone 2 Project as noted in README File
 
 function loadMap() {
   var options = {

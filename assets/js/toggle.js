@@ -1,4 +1,4 @@
-// Function to Toggle Area Cards
+// Function to Toggle Area Cards - Inspiration taken from michellecclement's Milestone 2 Project as noted in README File
 $(document).ready(function () {
   $(".invisible").hide();
 });
