@@ -47,10 +47,10 @@ A blue and white colour scheme was initially decided upon to give a clean and cr
 ***Logo:*** 
 The logo used for the Visit East Cork website is a Triskell Celtic Symbol, a free to use image from PlumePloume and Pixabay, available **[here](https://pixabay.com/vectors/triskell-symbol-celtic-logo-1194004/)**
 
-**Font**  
-I selected the Josefiin font from Google Fonts for this project as it is reminiscent of classic minimalist travel posters and fits in with the styling of the website. This font is backed up by the sans-serif font.
+***Font*** 
+I selected the Josefin font from Google Fonts for this project as it is reminiscent of classic minimalist travel posters and fits in with the styling of the website. This font is backed up by the sans-serif font.
 
-**Colours:** 
+***Colours:***
 The colour scheme for this project is bright and airy so a blue and white theme was selected. The following colours are used in the project:
 
 * Light Blue: rgba(87, 202, 255, 1)
@@ -131,7 +131,7 @@ I used the following languages for the project:
     - The project uses **EmailJS** to add functionality to the website contact form. This API was utilised in a Code Institute Project and it allows the developer to link the contact form to their email address and inturn provides a method of communication for the website users. EmailJS requires developers to set up an account and link it to their email address.
 
 - **[Open Weather Map API](https://openweathermap.org/api)**
-    - The project uses **Open Weather Map API** to add weather forecast functionality to the footer of Visit East Cork. Like the Google Maps API, this API requires developers to set up an account and use an API Key to access weather information specific to their area. This is a straightforward process.
+    - The project uses **Open Weather Map API** to add weather forecast functionality to the footer of the Visit East Cork website. Like the Google Maps API, this API requires developers to set up an account and use an API Key to access weather information specific to their area. This is a straightforward process.
 
 ### 3.4 IDE
 
@@ -248,17 +248,23 @@ The following sources were used for code snippets or inspiration throughout the 
 - **Area Infrmation Cards**
     - The cards were developed from Bootstrap 4's card documentation.
     - Box shadow effects were inspired by the following from [W3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
-    - The toggle feature on the Area Informaion cards was inspired by the followng from [JQuery] (https://api.jquery.com/toggle/).
+    - The toggle feature on the Area Informaion cards was inspired by the followng from [JQuery](https://api.jquery.com/toggle/).
     - Box shadow effects were inspired by the following from [W3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
 
 - **Google Maps API**
     - The Google Maps API documentation, available [here](https://developers.google.com/maps/documentation/javascript/overview) was used to develop the map feature of the Visit East Cork website. Additionally the following resources were used to style and add functionality to the map:
-    - - Embedding the search bar within the map was inspired by the followinf from [Stack Overflow](https://stackoverflow.com/questions/58870022/google-maps-how-do-you-embed-it-with-search-bar) along with 
-    - - Custom markers
-    - - Info Windows
-    - - Restet button
-    - - Setting boundaries
-    
+        - Embedding the search bar within the map was inspired by the followinf from [Stack Overflow](https://stackoverflow.com/questions/58870022/google-maps-how-do-you-embed-it-with-search-bar) along with the following from [Google Developers](https://developers.google.com/maps/documentation/javascript/places-autocomplete).
+        - Custom markers were deveoped using he followig video tutorials on Youtube:[Google Maps Tutorial](https://www.youtube.com/watch?v=Zxf1mnP5zcw) and [Google Maps Places Tutorial](https://www.youtube.com/watch?v=oVr6unKZbg4). The map icons were generated using the custom marker maker on [Mapsmaker.com](https://mapicons.mapsmarker.com/)
+        - Info Windows were designed from the video tutorials linked above as well as Google's documentation on [InfoWindows](https://developers.google.com/maps/documentation/javascript/infowindows) and the following from [Stackoverflow](https://stackoverflow.com/questions/43544741/google-map-close-info-window-when-another-marker-is-clicked)
+        - The map reset button took information from the following thread on [Stackoverflow](https://stackoverflow.com/questions/42151253/reinitialize-restart-google-map-api).
+        - The search boundaries on the map search were installed with assistance from the following thread on [Stackoverflow](https://stackoverflow.com/questions/46136800/how-to-set-bounds-for-google-places-autocomplete-using-drop-down) as well as the [Google Maps Documentation](https://developers.google.com/maps/documentation/javascript/examples/control-bounds-restriction).
+
+- **EmailJS API and Contact Form**
+    - The EmailJS documention, available [here]() provided all information for activating the API. Styling for the contact form was developed using content from the Code Institute Full Stack Web Developer course.
+
+- **Open Weather Map API**
+    - Information on how to set up and install the Open Weather Map API wsa taken from the [official documentaion](https://openweathermap.org/guide) and the following from [Stackoverflow](https://stackoverflow.com/questions/36174177/show-local-weather-using-openweathermap-api)
+
     - The hyperlink code for phone numbers was discovered at [Stackoverflow Overlays](https://stackoverflow.com/questions/53270766/how-do-i-hyperlink-a-phone-number).
 
 - **Carousels**
@@ -269,24 +275,20 @@ The following sources were used for code snippets or inspiration throughout the 
         - [Stackoverflow Card Word Wrapping](https://stackoverflow.com/questions/42232954/bootstrap-4-word-wrapping-in-cards)
         - [Stackoverflow Captions for Bootstrap Carousels](https://stackoverflow.com/questions/47176632/bootstrap-carousel-caption)
 
-- **Images and Gallery**
-    - The thumbnail style images on the homepage carousel were inspired by Bootstrap 4's documentation on Thumbnail Images.
-    - The gallery modal and carousel was inspired by the following from [CSS Tricks](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/).
-    - The alignment and positioning of the image gallery was inspired by the following from [codeacademy](codecademy.com/forum_questions/542c44d4631fe94ba3000d4f).
-
 
 ### 6.2 Media
-- **Map**
-    - The map for the Contact page was sourced and copied from [Maps.ie](https://www.maps.ie/).
+
 - **Images**
-    - The Leadership Goals Lion Icon was sourced on [freepik.com](https://www.freepik.com/) and edited on [pixlr](https://pixlr.com/).
-    - All images for backgrounds, thumbnails and galleries were free to use and sourced from [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/).
+    - The Visit East Cork Icon and Logo was sourced from PlumePloume on Pixabay, available [here](https://pixabay.com/vectors/triskell-symbol-celtic-logo-1194004/).
+    - All images for local attractions were sourced from each individual establishment's public Facebook page.
 
 
 ### 6.3 Acknowledgements
 
 - **Oluwafemi Medale** (My Mentor) - Thank you for your assistance with this project.
 - **The Code Institute Slack Community** - The community was a great source of inspiration and assistance throughout the project.
+- **Lucy, Neil and Ulysses from Student Support** for their assistance throughout this project.
+
 ***
 
 
