@@ -1,3 +1,4 @@
+// Function to Toggle Area Cards
 $(document).ready(function () {
   $(".invisible").hide();
 });

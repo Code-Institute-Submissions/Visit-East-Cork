@@ -1,3 +1,4 @@
+// Function to control the Open Weather Map API in Footer
 $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Cork&units=metric&APPID=e36184944b6d6482292bede0ad3a5018", function (data) {
     
     let icon = "https://openweathermap.org/img/wn/" + data.weather[0].icon + ".png";
@@ -13,7 +14,7 @@ $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Cork&units=metric&A
     $(".temp_max").append(temp_max);
     $(".temp_min").append(temp_min);
 })
-.fail(function(jqxhr, textStatus, error) {
+.fail(function(textStatus, error) {
     let err = textStatus + ", " +error;
     console.log( "Request Failed " + err );
 });

@@ -1,4 +1,4 @@
-//Code as instructed via Google Maps & Course Material
+//Code as learned through via Google Maps Documentation & Course Material
 
 function loadMap() {
   var options = {
@@ -6,7 +6,7 @@ function loadMap() {
     center: { lat: 51.8631, lng: -8.1212 },
   };
 
-  // Code as instructed by Google Documentation along with following the YouTube Tutorial by Traversy Media. Link in README
+  // Code as learned through Google Maps Documentation along with following the YouTube Tutorial by Traversy Media. Link in README
 
   var map = new google.maps.Map(document.getElementById("map"), options);
 
@@ -118,28 +118,28 @@ function loadMap() {
       map.addListener("click", function () {
         if (infoWindow) infoWindow.close();
       });
-
     }
   }
 
-  // Code as instructed by Google Documentation along with YouTube Tutorial by Develop Mindfully. Link in ReadMe
+  // Code as learned through Google Documentation along with YouTube Tutorial by Develop Mindfully. Link in ReadMe
 
   // Search Box
-var defaultBounds = new google.maps.LatLngBounds(
-  new google.maps.LatLng(51.8179, -8.3915),
-  new google.maps.LatLng(51.9543, -7.8472));
+  var defaultBounds = new google.maps.LatLngBounds(
+    new google.maps.LatLng(51.8179, -8.3915),
+    new google.maps.LatLng(51.9543, -7.8472)
+  );
 
   var input = document.getElementById("search");
   var searchBox = new google.maps.places.SearchBox(input);
-        map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
   var options = {
-  bounds: defaultBounds,
-  types: ['establishment']
-};
+    bounds: defaultBounds,
+    types: ["establishment"],
+  };
   var autocomplete = new google.maps.places.Autocomplete(input, options);
-  
+
   autocomplete.bindTo("defaultBounds", map);
-  
+
   autocomplete.setFields(["address_components", "geometry", "icon", "name"]);
   var infowindow = new google.maps.InfoWindow();
   var infowindowContent = document.getElementById("infowindow-content");
@@ -154,18 +154,15 @@ var defaultBounds = new google.maps.LatLngBounds(
     var place = autocomplete.getPlace();
 
     if (!place.geometry) {
-      // User entered the name of a Place that was not suggested and
-      // pressed the Enter key, or the Place Details request failed.
       window.alert("No details available for input: '" + place.name + "'");
       return;
     }
 
-    // If the place has a geometry, then present it on a map.
     if (place.geometry.viewport) {
       map.fitBounds(place.geometry.viewport);
     } else {
       map.setCenter(place.geometry.location);
-      map.setZoom(17); // Why 17? Because it looks good.
+      map.setZoom(17);
     }
     marker.setPosition(place.geometry.location);
     marker.setVisible(true);
@@ -190,23 +187,22 @@ var defaultBounds = new google.maps.LatLngBounds(
     infowindow.open(map, marker);
   });
 
-//   Code to add town buttons to map
- 
- $(".towns").click(function () {
-        
-        map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
-        map.setZoom(12);
-    });
-    const towns = [
-        ["midleton", 51.9143, -8.1726],
-        ["ballycotton", 51.8299, -8.0098],
-        ["castlemartyr", 51.9119, -8.0535],
-        ["cobh", 51.8503, -8.2943],        
-    ];
+  //   Code to add town buttons to map
 
-    // Code to add reset button to map
-    $(".reset-state").click(function() {
-  infowindow.close();
-  map.fitBounds(defaultBounds);
-});
+  $(".towns").click(function () {
+    map.setCenter(new google.maps.LatLng(this.dataset.lat, this.dataset.lng));
+    map.setZoom(12);
+  });
+  const towns = [
+    ["midleton", 51.9143, -8.1726],
+    ["ballycotton", 51.8299, -8.0098],
+    ["castlemartyr", 51.9119, -8.0535],
+    ["cobh", 51.8503, -8.2943],
+  ];
+
+  // Code to add reset button to map
+  $(".reset-state").click(function () {
+    infowindow.close();
+    map.fitBounds(defaultBounds);
+  });
 }

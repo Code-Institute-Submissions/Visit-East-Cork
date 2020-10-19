@@ -192,54 +192,89 @@ I tested the desktop functionality of the Visit East Cork website on Google Chro
 **W3C HTML Validator**
 * Ran index.html through validator to check there were no syntax errors: 
     * Failed – 2 images are missing SRC attributes however these attributes are filled by the Google Place API at line 165 and by the Open Weather Map API at line 225.
-        * Alt tags added and tested again
-	* Passed
-
+    * Failed – W3C Validator does not recognise a phone number as an anchor tag however this is recognised by browsers.
 
 **W3C CSS Validator**
 W3C CSS Validator
 * Ran style.css through validator to check there were no syntax errors: 
     * Passed with no errors
 
-**User stories**
+### 4.4 Bugs
 
-*As a user who is looking to visit, or currently visiting Mykonos, I want to learn more about the best things to see on Mykonos, recommended restaurants on Mykonos, and learn about the different areas of Mykonos.*
-* Recommendations on the website have been split into 3 simple and clear categories: Attractions, Restaurants and Areas.
-* These sections are available to the viewer upon landing on the site in the simple and clean navigation.
-    * When a user clicks on one of these navigation items, the site is expected to take the user directly to the corresponding section
-        * Upon testing, the site responds as expected. (Full navigation testing below).
-* The 3 categories are again available below the jumbotron, with images to represent each category, a title, and clear ‘Show Me’ call to action buttons.
-    * When a user clicks on one of these ‘Show me’ buttons, the site is expected to take the user directly to the corresponding section
-        * Upon testing, the site responds as expected and takes the user to the selected section of the website. (Full 3 Topics testing below).
-* The 3 category sections are also titled with headers clearly to match the category names.
-* All of these options give the user multiple ways to find the content for the best things to see on Mykonos.
+I encountered the following bugs while developing the Visit East Cork website:
+
+### Google Maps API
+- In order to safeguard your API Key, Google advised that you register your websites that will be using your key on the Google API credentials page. I registered my GitPod demo site and the Maps API worked fine but when I restarted GitPod and opened a new demo page, the Maps API stopped working. I later realised that I needed to re-regsiter my site with  Google MAps API credential and it worked fine after this.
+
+### Google Autocomplete Places
+- 
+
+<span id="deploy"></span>
+## 5. Deployment
+
+The Visit East Cork website is hosted on GitHub Pages and was developed using the GitPod IDE using the following steps:
+
+1. An initial repository was created in my GitHub account for the Visit East Cork Project.
+2. Using the GitPod Chrome extension, the project was launched from the GitHub repository.
+3. All development on the project was carried out on the GitPod IDE.
+4. Changes to the project were committed and pushed regularly from GitPod to the Github repository.
+5. The Master Branch was the sole branch used to edit the project and the GitHub pages website was created from this branch. A link to the site is available **[here](https://d-mcalpin.github.io/visit-east-cork/)**.
+6. To create a local copy of this repository, click "clone or download" on the Visit East Cork respository page and copy the provided URL. Open the Command Line Interface in your editor and type **git clone** and paste the URL copied earlier. Pressing enter creates a local clone of the Leadership Goals repository.
+***
+<span id="credit"></span>
+## 6. Credits
+
+### 6.1 Content
+The design and style of my project was initially inspired by elements of the following Milestone 1 projects:
+- [Betahope's Startup Academy ](https://github.com/betahope/ms1-startup-academy)
+- [D1Ang's EL1TE](https://github.com/D1ang/EL1TE)
+
+The following sources were used for code snippets or inspiration throughout the project:
+- **All Pages**
+    - The navbar was developed from Bootstrap 4's navbar documentation.
+    - The hero image and jumbotron were inspired by the Love Running project of the Code Institute Full Stack Web Developer Course.
+    - The card deck and cards were developed from Bootstrap 4's card documentation.
+    - The overlay for the course stages cards was inspired by the following :
+        - [Stackoverflow Overlays](https://stackoverflow.com/questions/55194719/how-can-i-make-hover-overlay-text-fixed-to-an-image)
+        - [W3Schools Overlays](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+    - Box shadow effects were inspired by the following from [W3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
+    - The hyperlink code for phone numbers was discovered at [Stackoverflow Overlays](https://stackoverflow.com/questions/53270766/how-do-i-hyperlink-a-phone-number)
+
+- **Carousels**
+    - The homepage carousel in the About Us section was designed using cards and carousels from Bootstrap 4's documentation and the following:
+        - [MD Bootstrap Carousel of Cards](https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600)
+        - [Stackoverflow Navigation Elements](https://stackoverflow.com/questions/20577842/bootstrap-carousel-controls-located-incorrectly)
+        - [Stackoverflow Carousel Arrows](https://stackoverflow.com/questions/46944313/bootstrap-4-beta-carousel-arrows-outside-slider-area)
+        - [Stackoverflow Card Word Wrapping](https://stackoverflow.com/questions/42232954/bootstrap-4-word-wrapping-in-cards)
+        - [Stackoverflow Captions for Bootstrap Carousels](https://stackoverflow.com/questions/47176632/bootstrap-carousel-caption)
+
+- **Images and Gallery**
+    - The thumbnail style images on the homepage carousel were inspired by Bootstrap 4's documentation on Thumbnail Images.
+    - The gallery modal and carousel was inspired by the following from [CSS Tricks](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/).
+    - The alignment and positioning of the image gallery was inspired by the following from [codeacademy](codecademy.com/forum_questions/542c44d4631fe94ba3000d4f).
+- **Timeline and Progress Bar**
+    - The timeline and progress bar on the Programme page were inspired by the Resume Project in the Code Institute's User Centric Frontend module. 
+
+### 6.2 Media
+- **Map**
+    - The map for the Contact page was sourced and copied from [Maps.ie](https://www.maps.ie/).
+- **Images**
+    - The Leadership Goals Lion Icon was sourced on [freepik.com](https://www.freepik.com/) and edited on [pixlr](https://pixlr.com/).
+    - All images for backgrounds, thumbnails and galleries were free to use and sourced from [Pexels](https://www.pexels.com/) and [Pixabay](https://pixabay.com/).
+
+
+### 6.3 Acknowledgements
+
+- **Oluwafemi Medale** (My Mentor) - Thank you for your assistance with this project.
+- **The Code Institute Slack Community** - The community was a great source of inspiration and assistance throughout the project.
+***
+
+
 
 ![Show me more... / Show me less... toggle buttons](assets/readme_docs/testing_toggle.jpg)
 
-*As a user, I want to be able to contact the admin of the website to be able to ask for more information.* 
-* A clear Contact Us navigation item is visible on the main navigation bar as soon as the user lands on the site. 
-* This links the user to a Contact Us form at the bottom of the homepage, making it easy for the user to send a message to the site owner, and for the user to not have to leave the site to send the message from an email client.
-* When a user clicks on the Contact Us navigation item, the site is expected to take the user to the Contact Us form, which the user can then fill in. 
-    * Upon testing, the site acts as expected and takes the user to the form. (Full Contact form testing below).
-
-*As a user, I want to be able to locate the recommended places shown to me on the website on a map.*
-* All recommendations have been individually added to a Google Map embedded into the website.
-* Each item has been added to the map using 1 of 3 custom icons which represent each of the 3 categories, making the markers clear and distinguishable.
-* Each marker includes a popup label which includes the same image and title of the recommendation as to the listed recommendation further down the page for familiarity and ease of location, as well as a link back to the recommendation listed on the homepage.
-* The map can be found easily by the user via the main navigation item ‘Map’
-* The site is expected to take the user to the map section of the website when the ‘Map’ navigation item is clicked.
-    * Upon testing, the site acted as expected, taking the user swiftly and simply to the map. (More map and navigation technical tests conducted below.)
-
-*As a user, I want to be able to find other places on a map, such as restaurants, cafes, beaches and more.*
-* By installing the Google Places API and a search box, users can type in a search term or specific place.
-* Results are returned by Google Places and marked on the map with a red marker.
-* The map and search bar can be found easily by the user via the main navigation item ‘Map’ 
-
 ![Contact navigation, contact form, and map features](assets/readme_docs/testing_screenshots.jpg)
 
-**Further testing**
-* The website as tested on Google Chrome, Internet Explorer and Firefox browsers.
-* The website was viewed on a variety of devices including Desktop, Laptop, iPad, and the mobile options provided by Google chrome developer tools.
 
 **You can find a full document to all the website testing [by clicking here](assets/readme_docs/testing.pdf)
 
