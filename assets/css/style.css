@@ -153,6 +153,10 @@ height: 400px;
   padding-top: 50px;
 }
 
+.footer-item-weather {
+  padding-top: 5px;
+}
+
 .social {
   font-size: 32px;
 }
@@ -247,11 +251,10 @@ height: 400px;
 
     /* Weather API */
 .weather-container {
-    text-align: center;
-    width: 300px;
+    width: 250px;
     max-height: 300px;
     border-radius: 12px;
-    background-image: linear-gradient(45deg, #2980b9, #6dd5fa, #fff);
+    background-color: rgba(0, 136, 122, 1.0);
     box-shadow: 1px 1px;
 }
 
@@ -286,4 +289,23 @@ height: 400px;
     width: 100%;
     text-align: center;
     
+}
+
+.social i {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-size: 40px;
+  text-align: center;
+  color: #ffffff;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.social li a i:hover {
+  color: rgba(0, 136, 122, 1.0);}
+
+.container-wrapper-blue {
+  background-color: rgba(87, 202, 255, 1);
 }
