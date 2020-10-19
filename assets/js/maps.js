@@ -6,7 +6,7 @@ function loadMap() {
     center: { lat: 51.8631, lng: -8.1212 },
   };
 
-  // Code as learned through Google Maps Documentation along with following the YouTube Tutorial by Traversy Media. Link in README
+  // Code as learned through Google Maps Documentation along with following the YouTube Tutorial available in README file.
 
   var map = new google.maps.Map(document.getElementById("map"), options);
 
@@ -121,7 +121,7 @@ function loadMap() {
     }
   }
 
-  // Code as learned through Google Documentation along with YouTube Tutorial by Develop Mindfully. Link in ReadMe
+  // Code as suggested through Google Documentation along with YouTube Tutorial available in README file.
 
   // Search Box
   var defaultBounds = new google.maps.LatLngBounds(
@@ -147,6 +147,9 @@ function loadMap() {
   var marker = new google.maps.Marker({
     map,
     anchorPoint: new google.maps.Point(0, -29),
+    icon: {
+      url: "http://maps.google.com/mapfiles/ms/icons/ltblue-dot.png",
+    },
   });
   autocomplete.addListener("place_changed", () => {
     infowindow.close();
@@ -204,5 +207,11 @@ function loadMap() {
   $(".reset-state").click(function () {
     infowindow.close();
     map.fitBounds(defaultBounds);
+
+      markers.forEach((marker) => {
+        marker.setMap(null);
+      });
+      markers = [];
+    
   });
 }

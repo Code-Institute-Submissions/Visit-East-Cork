@@ -95,6 +95,16 @@ html {
   background-size: cover;
 }
 
+.home-image2 {
+  background: url("../images/Ballycotton.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.home-image3 {
+  background: url("../images/fota.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
 .jumbotron {
   margin-top: 30px;
   background-color: rgba(145, 236, 227, 0.5);

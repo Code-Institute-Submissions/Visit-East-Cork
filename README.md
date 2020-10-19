@@ -1,7 +1,5 @@
 ![Visit East Cork logo](assets/images/mockups/readmeLogo.png)
 
-`python3 -m http.server`
-
 # Milestone 2 Project - Visit East Cork
 
 The purpose of this project is to develop an interactive frontend website that promotes the area of East Cork in the South of Ireland. Visit East Cork is a business to consumer website that serves the dual purpose of advertising select companies or activities in the East Cork area but also allows users to discover information themselves and contact the website owner for more information.
@@ -156,7 +154,7 @@ I used the following languages for the project:
     - This project uses the GitHub hosting service and is saved in a GitHub repository.
 
 - **[Google Drive](ttps://drive.google.com/)**
-    - The wireframe PNG files are saved to a Google Drive account and are openly accessible.
+    - The Testing Document and Wireframe PNG files are saved to a Google Drive account and are openly accessible.
 ***
 <span id="test"></span>
 
@@ -235,7 +233,7 @@ I encountered the following bugs while developing the Visit East Cork website:
 - In order to safeguard your API Key, Google advised that you register your websites that will be using your key on the Google API credentials page. I registered my GitPod demo site and the Maps API worked fine but when I restarted GitPod and opened a new demo page, the Maps API stopped working. I later realised that I needed to re-regsiter my site with  Google MAps API credential and it worked fine after this.
 
 ### Google Autocomplete Places
-- 
+- Although the Autcomplete has set boundaries within the area of East Cork, occasionally search results appear from outside the area. This requires further investigation.
 
 <span id="deploy"></span>
 ## 5. Deployment
@@ -260,6 +258,9 @@ The design and style of my project was initially inspired by elements of the fol
 The following sources were used for code snippets or inspiration throughout the project:
 - **Main Image**
     - The hero image and jumbotron were inspired by the Love Running project of the Code Institute Full Stack Web Developer Course.
+
+    - **Carousel**
+    - The homepage carousel for the main hero image section was designed using [Bootstrap 4's documentation](https://getbootstrap.com/docs/4.0/components/carousel/).
     
 - **Area Infrmation Cards**
     - The cards were developed from Bootstrap 4's card documentation.
@@ -283,13 +284,7 @@ The following sources were used for code snippets or inspiration throughout the 
 
     - The hyperlink code for phone numbers was discovered at [Stackoverflow Overlays](https://stackoverflow.com/questions/53270766/how-do-i-hyperlink-a-phone-number).
 
-- **Carousels**
-    - The homepage carousel in the About Us section was designed using cards and carousels from Bootstrap 4's documentation and the following:
-        - [MD Bootstrap Carousel of Cards](https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600)
-        - [Stackoverflow Navigation Elements](https://stackoverflow.com/questions/20577842/bootstrap-carousel-controls-located-incorrectly)
-        - [Stackoverflow Carousel Arrows](https://stackoverflow.com/questions/46944313/bootstrap-4-beta-carousel-arrows-outside-slider-area)
-        - [Stackoverflow Card Word Wrapping](https://stackoverflow.com/questions/42232954/bootstrap-4-word-wrapping-in-cards)
-        - [Stackoverflow Captions for Bootstrap Carousels](https://stackoverflow.com/questions/47176632/bootstrap-carousel-caption)
+
 
 
 ### 6.2 Media
@@ -298,6 +293,11 @@ The following sources were used for code snippets or inspiration throughout the 
     - The Visit East Cork Icon and Logo was sourced from PlumePloume on Pixabay, available [here](https://pixabay.com/vectors/triskell-symbol-celtic-logo-1194004/).
     - All images for local attractions were sourced from each individual establishment's public Facebook page with the exception of The Ballycotton Cliff Walk which was sourced from Tripadvisor and Garryvoe Beach which was sourced from Twitter.
 
+- **Text**
+    - All the text for the website was written by myself.
+
+- **Mockups**
+    - [Techsini](Techsini.com) was used to generate the desktop and mobile mockups.
 
 ### 6.3 Acknowledgements
 
@@ -309,16 +309,5 @@ The following sources were used for code snippets or inspiration throughout the 
 
 
 
-## Credits
 
-**Content**
-Website Text: All the text for the website was written by myself.
-
-**Media**
-All images used on the website were a mix of my own photographs, Google Images or images from Restaurant social channels.
-* Restaurants – Images from their social media pages or website
-* Ornos & Platis Gialos – Google Images (labelled for reuse with modification)
-* All other photos are my own
-* Apple products mockups for README doc by Vinay Mittal via [Graphic Burger](https://graphicburger.com/)
-* iPhone 6 Mockups for testing and README document obtained from Graphic Burger and created by [p-px](http://p-px.com)
 
