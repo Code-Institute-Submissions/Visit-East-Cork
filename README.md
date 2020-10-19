@@ -69,6 +69,58 @@ Below the map, a contact form invites users to send a message to the site owner 
 ### 2.5 Footer
 The footer of the Visit East Cork webpage contains contact informaion and social media links that invite users to keep in contact with the site owner. A weather forecast and current temperature display for the Cork area is also contained within the footer. This is a custom forecast provided by the Openweathermap API.
 
+### 2.6 Features Left to Implement
+After reading the Google Maps Javascript API, there is an incredible amount of functionality that can be added to custom maps. In order to monetise the website richer and more detailed information on local businesses could be added to the map, this would provide the website owner with more opportunities to showcase local businesses on the Visit East Cork website.
+***
+<span id="tech"></span>
+
+## 3. Technologies Used
+
+### 3.1 Languages 
+
+I used the following languages for the project:
+- **[HTML/HTML5](https://en.wikipedia.org/wiki/HTML5)**
+  - The project used **HTML/HTML5** as this is the essential language of websites.
+
+- **[CSS/CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)** 
+  - The project used **CSS/CSS3** to provide the styles for the website.
+
+- **[Javascript](https://en.wikipedia.org/wiki/JavaScript)** 
+  - The project used **Javacsript** to provide the functionality and customisation for the contact forn, card toggle, Google Maps API and the Openweathermap forecast.
+
+### 3.2 Frameworks 
+- **[BootStrap 4](https://getbootstrap.com/)**
+  - I used the **Bootstrap 4** Framework to design the website and add useful components and utilities including:
+    - [Flexbox](https://getbootstrap.com/docs/4.5/utilities/flex/)
+    - [Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron/)
+    - [Cards](https://getbootstrap.com/docs/4.5/components/card/)
+    - [Images](https://getbootstrap.com/docs/4.5/content/images/)
+
+### 3.3 Libraries
+
+- **[JQuery](https://jquery.com)**
+    - The project uses **JQuery** to add toggle functionality to the East Cork Area information cards.
+
+- **[Fontawesome](https://fontawesome.com/)**
+    - The project uses **Fontawesome** to add attractive icons to each of thearea information cards and the social media links.
+
+- **[Google Fonts](https://fonts.google.com/)**
+    - The Quicksand Font from Google Fonts is used throughout the project in different weights and colours.
+
+- **[Google Places Library](https://developers.google.com/maps/documentation/javascript/places)**
+    - The Google Places Library allows users to seacrh for places using the search function on the map and can return information on those places including addresses, images, user reviews and opening hours.
+
+### 3.4 APIs
+
+- **[Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview)**
+    - The project uses **Google Maps Javascript** to generate the primary website attraction, the local area map. In order to use this API on your website, a developed must create a billing account and generate an API key. This key and account allows the owner to access the maps database. In order to access places through the Autocomplete Search, the developer must also link the Google Place Library to their API key and billing account. This can be challenging as it is advised that developers restrict their keys do that they are not abused by a third party. This can sometimes cause the Gogole Maps API to fail if Google does not recognise the website that is trying to load the map. 
+
+- **[EmailJS API](https://www.emailjs.com/)**
+    - The project uses **EmailJS** to add functionality to the website contact form. This API was utilised in a Code Institute Project and it allows the developer to link the contact form to their email address and inturn provides a method of communication for the website users. EmailJS requires developers to set up an account and link it to their email address.
+
+- **[Open Weather Map API](https://openweathermap.org/api)**
+    - The project uses **Open Weather Map API** to add weather forecast functionality to the footer of Visit East Cork. Like the Google Maps API, this API requires developers to set up an account and use an API Key to access weather information specific to their area. This is a straightforward process.
+
 
 
 
