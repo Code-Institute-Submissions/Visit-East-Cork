@@ -51,7 +51,8 @@ The wireframe mockups gave me a basic idea of how best to lay out each individua
 
 ### 1.6 Surface
 A blue and white colour scheme was initially decided upon to give a clean and crisp image to the site, I decided to add a teal colour, particularly for buttons and hover elemenets. I chose the Josefin font from Google Fonts as I found that it reminded me of the text on classic travel posters.  Shadows and rounded borders appear on a number of elements on the site to add depth and to keep it interesting.
-***Logo:*** 
+
+***Logo*** 
 The logo used for the Visit East Cork website is a Triskell Celtic Symbol, a free to use image from PlumePloume and Pixabay, available **[here](https://pixabay.com/vectors/triskell-symbol-celtic-logo-1194004/)**
 
 ***Font*** 
