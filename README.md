@@ -219,15 +219,15 @@ The Visit East Cork website is hosted on GitHub Pages and was developed using th
 3. All development on the project was carried out on the GitPod IDE.
 4. Changes to the project were committed and pushed regularly from GitPod to the Github repository.
 5. The Master Branch was the sole branch used to edit the project and the GitHub pages website was created from this branch. A link to the site is available **[here](https://d-mcalpin.github.io/visit-east-cork/)**.
-6. To create a local copy of this repository, click "clone or download" on the Visit East Cork respository page and copy the provided URL. Open the Command Line Interface in your editor and type **git clone** and paste the URL copied earlier. Pressing enter creates a local clone of the Leadership Goals repository.
+6. To create a local copy of this repository, click "clone or download" on the Visit East Cork respository page and copy the provided URL. Open the Command Line Interface in your editor and type **git clone** and paste the URL copied earlier. Pressing enter creates a local clone of the Visit East Cork repository.
 ***
 <span id="credit"></span>
 ## 6. Credits
 
 ### 6.1 Content
-The design and style of my project was initially inspired by elements of the following Milestone 1 projects:
-- [Betahope's Startup Academy ](https://github.com/betahope/ms1-startup-academy)
-- [D1Ang's EL1TE](https://github.com/D1ang/EL1TE)
+The design and style of my project was initially inspired by elements of the following Milestone 2 projects:
+- [michellelclement's Mykonos Recommended ](https://github.com/michellelclement/mykonos-recommended-MS2)
+- [samc85's Milestone2-project](https://github.com/samc85/Milestone2-project)
 
 The following sources were used for code snippets or inspiration throughout the project:
 - **All Pages**
