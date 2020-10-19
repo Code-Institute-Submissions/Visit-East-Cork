@@ -43,8 +43,33 @@ A mobile first approach was taken to designing the website. The original wirefra
 The wireframe mockups gave me a basic idea of how best to lay out each individual element that I wanted to incorporate into the project and how that would impact and enhance the user experience. As the project progressed, how best to place each of these elements became apparent.
 
 ### 1.6 Surface
-A blue and white colour scheme was initially decided upon to give a clean and crisp image to the site, I decided to add a teal colour, particularly for buttons and hover elemenets early on in the project. I chose the Quicksand font from Google Fonts as it fit in with my intended design. A mixture of rounded borders and angled borders as well as shadowing appear on different elements throughout the site in order to improve visual appeal.
+A blue and white colour scheme was initially decided upon to give a clean and crisp image to the site, I decided to add a teal colour, particularly for buttons and hover elemenets. I chose the Josefin font from Google Fonts as I found that it reminded me of the text on classic travel posters.  Shadows and rounded borders appear on a number of elements on the site to add depth and to keep it interesting.
 ***
+
+<span id="features"></span>
+
+## 2. Features 
+
+### 2.1 Welcome Image
+Users are welcomed to the page with a large hero or welcome image and a Jumbrotron containing a welcome message. The image zooms slowly towards to user when the page loads.
+Text below the main image gives users instructions on how to use the site.
+
+### 2.2 Information Cards with Toggle and Map Zoom Features
+The information cards below the site instructions utilise JQuery Toggle to provide users with information on areas of East Cork. When the user clicks on the "Show More" button on each card, more informaiton will appear about that location and the map will centre on that location also.
+
+### 2.3 Google Maps API
+The Google Maps section of the website contains a large map with preloaded, customised markers that show a particular point of interst on the map. When w user clicks on the custom icon, an information window will be displayed showcasing an image of the point of interest and its name.
+
+### 2.4 Google Places Autocomplete Search
+A custom search bar is embedded in the top left corner of the map. This search bar allows users to search the area of the map for other points of interest that are not highlighted by custom markers. This search will show local businesses including shops, bars, restaurants, hotels and other businesses within the boandaries of the map.
+
+### 2.5 Contact Form
+Below the map, a contact form invites users to send a message to the site owner if the require further information. This is a functional and opeerational contact form powered by EmailJS. When users submit their query after filling out the required boxed, a message will display in the browser window telling them if their message was sent successfully or if it failed.
+
+### 2.5 Footer
+The footer of the Visit East Cork webpage contains contact informaion and social media links that invite users to keep in contact with the site owner. A weather forecast and current temperature display for the Cork area is also contained within the footer. This is a custom forecast provided by the Openweathermap API.
+
+
 
 
 ## Scope
