@@ -181,7 +181,7 @@ I used the following languages for the project:
 
 ### 4.3 Device Testing
 
-I utilised Google Chrome's DevTools to test the responsivness of the website at different screen sizes throughout the project. Once the project was approximately 70% complete, I tested it using a Huawei P9 Lite and an Apple iPhone 11 mobile device and an Acer tablet device. The website worked well on both devices.
+I utilised Google Chrome's DevTools to test the responsivness of the website at different screen sizes throughout the project. Once the project was approximately 70% complete, I tested it using a Huawei P9 Lite and an Apple iPhone 11 mobile device and an Acer tablet device. The website worked well on all devices.
 I tested the desktop functionality of the Visit East Cork website on Google Chrome and Microsoft Edge.
 
 #### On screen sizes of tablet size and below:
