@@ -47,17 +47,14 @@ A blue and white colour scheme was initially decided upon to give a clean and cr
 ***Logo:*** 
 The logo used for the Visit East Cork website is a Triskell Celtic Symbol, a free to use image from PlumePloume and Pixabay, available **[here](https://pixabay.com/vectors/triskell-symbol-celtic-logo-1194004/)**
 
-**Fonts**  
-I wanted to keep the rest of the site nice, clear and simple. Therefore, I decided to pair the Google fonts Raleway Light for the headers with Opens Sans Regular for the body text. Both fonts were assigned the backup front of sans-serif.
+**Font**  
+I selected the Josefiin font from Google Fonts for this project as it is reminiscent of classic minimalist travel posters and fits in with the styling of the website. This font is backed up by the sans-serif font.
 
 **Colours:** 
-In keeping with a clean and clear website, I opted to use just one main accent colour to complement the lovely colours of the photos. Greece, and the Greek Islands, are known for this bright blue, so I chose one which I felt was a nice modern blue, and once which would be great for text to set out on. This was coupled with a light grey for hover state on the navbar, as well as a dark grey and off white for the copy.
+The colour scheme for this project is bright and airy so a blue and white theme was selected. The following colours are used in the project:
 
-* Blue accent colour: #0086FF
-* Hover grey nav bar: #d0d0d5
-* Off White: #F8F8FF
-* Grey: #222222
-
+* Light Blue: rgba(87, 202, 255, 1)
+* Hover Teal for contrast: rgba(0, 136, 122, 1)
 
 ***
 
