@@ -26,13 +26,13 @@ Visit East Cork is a business to consumer website that allows users to discover 
 - As a local resident of East Cork, I can interact with the Visit East Cork website to find out more information about my local area, particularly relating to attractions or facilities that I may not know about. I can also view the local weather forecast and contact the site owner if I have any queries.
 
 ### 1.2 Strategy
-The goal of the project is to create an informative business to business website that showcases the Leadership Goals Programme and encourages potential clients to get in contact with the company. The website acts as an attractive window for clients to gain a basic understanding of the programme and entice them to find out more information.
+The goal of the project is to create an informative website that has the potential to generate revenue for the website owner through sponsored recommendations visible on the Google Maps API. The website intends to keep users interested through continuously updated local information with the potential to offer special deals on local businesses to website users.
 
 ### 1.3 Scope 
-The website intends to anticipate what information that clients would like to know. With this in mind, introductory information is contained within the landing page and further details such as fees, gallery images and a contact form is available within a click of the homepage.
+All of Visit East Cork's content is contained within a single webpage. Users do not have to navigate away from the page to use different elements including contacting the website owner and interacting with the Google Maps API. Elements of the homepage are interactive including the buttons which showcase the local area. These toggle information and interact with the map to show users where these areas are located.
 
 ### 1.4 Structure
-Based on the Scope Plane and what information I believe users require, the website is designed to provide key points about the course on the homepage with attractive and responsive elements. Once the client is confident in the quality of information available on the homepage, they will be encouraged to find uot more information by navigating through the website or contacting the company.
+Based on the Scope Plane, Visit East Cork was developed to provide users with information within moments of arriving at the page. A welcome image entices users to scroll down and the Google Maps API invites them to click on custom markers to discover the local area. A contact form and contact information is within a scroll of the map.
 
 ### 1.5 Skeleton
 A mobile first approach was taken to designing the website. The original wireframes were created using Balsamiq and can be found below:
@@ -40,7 +40,7 @@ A mobile first approach was taken to designing the website. The original wirefra
 - Mobile Wireframe PDF - <a href="https://drive.google.com/open?id=139CHAjLGGtWzUlTY-bNublwHJQya23ho" rel="noopener" target="_blank">mobile version in PDF</a>.
 - Desktop Wireframe PDF - <a href="https://drive.google.com/open?id=1ifq59VU_6UHgPFWvrcPonn4IZ5hT-syk" rel="noopener" target="_blank">desktop version in PDF</a>.
 
-The wireframe mockups gave me a basic idea of how best to lay out each individual element that I wanted to incorporate into the project and how that would impact and enhance the user experience. As the project progressed, how best placement of these elements became apparent.
+The wireframe mockups gave me a basic idea of how best to lay out each individual element that I wanted to incorporate into the project and how that would impact and enhance the user experience. As the project progressed, how best to place each of these elements became apparent.
 
 ### 1.6 Surface
 A blue and white colour scheme was initially decided upon to give a clean and crisp image to the site, I decided to add a teal colour, particularly for buttons and hover elemenets early on in the project. I chose the Quicksand font from Google Fonts as it fit in with my intended design. A mixture of rounded borders and angled borders as well as shadowing appear on different elements throughout the site in order to improve visual appeal.
