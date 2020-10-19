@@ -285,9 +285,6 @@ The following sources were used for code snippets or inspiration throughout the 
 
     - The hyperlink code for phone numbers was discovered at [Stackoverflow Overlays](https://stackoverflow.com/questions/53270766/how-do-i-hyperlink-a-phone-number).
 
-
-
-
 ### 6.2 Media
 
 - **Images**

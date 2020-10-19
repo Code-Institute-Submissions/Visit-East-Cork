@@ -36,8 +36,6 @@ html {
   padding-bottom: 2px;
 }
 
-
-
 /*---------------------------------------- Header --------------------------------------*/
 
 .navbar {
@@ -51,7 +49,6 @@ html {
   font-size: 48px;
   margin: 0px;
 }
-
 
 .navbar-nav {
   text-align: center;
@@ -89,6 +86,7 @@ html {
 }
 
 /* ------------------------Main Image ---------------------*/
+/* These are the images contained within the hero Carousel */
 
 .home-image {
   background: url("../images/cobhharbourjpg.jpg") no-repeat center fixed;
@@ -201,6 +199,8 @@ html {
   background-color: rgba(87, 202, 255, 1);
 }
 /* ---------------Maps Section------------------- */
+
+/* The below CSS controls the layout and some functionality of the Google Maps API Map as well as the Autocomplete Search Box. */
 #map {
   min-height: 350px;
   height: 500px;
