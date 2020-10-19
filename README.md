@@ -242,15 +242,24 @@ The design and style of my project was initially inspired by elements of the fol
 - [samc85's Milestone2-project](https://github.com/samc85/Milestone2-project)
 
 The following sources were used for code snippets or inspiration throughout the project:
-- **All Pages**
-    - The navbar was developed from Bootstrap 4's navbar documentation.
+- **Main Image**
     - The hero image and jumbotron were inspired by the Love Running project of the Code Institute Full Stack Web Developer Course.
-    - The card deck and cards were developed from Bootstrap 4's card documentation.
-    - The overlay for the course stages cards was inspired by the following :
-        - [Stackoverflow Overlays](https://stackoverflow.com/questions/55194719/how-can-i-make-hover-overlay-text-fixed-to-an-image)
-        - [W3Schools Overlays](https://www.w3schools.com/howto/howto_css_image_overlay.asp)
+    
+- **Area Infrmation Cards**
+    - The cards were developed from Bootstrap 4's card documentation.
     - Box shadow effects were inspired by the following from [W3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
-    - The hyperlink code for phone numbers was discovered at [Stackoverflow Overlays](https://stackoverflow.com/questions/53270766/how-do-i-hyperlink-a-phone-number)
+    - The toggle feature on the Area Informaion cards was inspired by the followng from [JQuery] (https://api.jquery.com/toggle/).
+    - Box shadow effects were inspired by the following from [W3Schools](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
+
+- **Google Maps API**
+    - The Google Maps API documentation, available [here](https://developers.google.com/maps/documentation/javascript/overview) was used to develop the map feature of the Visit East Cork website. Additionally the following resources were used to style and add functionality to the map:
+    - - Embedding the search bar within the map was inspired by the followinf from [Stack Overflow](https://stackoverflow.com/questions/58870022/google-maps-how-do-you-embed-it-with-search-bar) along with 
+    - - Custom markers
+    - - Info Windows
+    - - Restet button
+    - - Setting boundaries
+    
+    - The hyperlink code for phone numbers was discovered at [Stackoverflow Overlays](https://stackoverflow.com/questions/53270766/how-do-i-hyperlink-a-phone-number).
 
 - **Carousels**
     - The homepage carousel in the About Us section was designed using cards and carousels from Bootstrap 4's documentation and the following:
@@ -264,8 +273,7 @@ The following sources were used for code snippets or inspiration throughout the 
     - The thumbnail style images on the homepage carousel were inspired by Bootstrap 4's documentation on Thumbnail Images.
     - The gallery modal and carousel was inspired by the following from [CSS Tricks](https://css-tricks.com/creating-a-modal-image-gallery-with-bootstrap-components/).
     - The alignment and positioning of the image gallery was inspired by the following from [codeacademy](codecademy.com/forum_questions/542c44d4631fe94ba3000d4f).
-- **Timeline and Progress Bar**
-    - The timeline and progress bar on the Programme page were inspired by the Resume Project in the Code Institute's User Centric Frontend module. 
+
 
 ### 6.2 Media
 - **Map**
