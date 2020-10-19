@@ -150,11 +150,13 @@ I used the following languages for the project:
 
 ## 4. Testing
 
+[Please follow this link to view the full testing document](https://drive.google.com/file/d/1WEF8KH6VIpwU_CcmEMLlib4j6u0sbjgr/view?usp=sharing)
+
 - **[Balsamiq](https://balsamiq.com/)**
     - I used Balsamiq to design the original wireframes for the project and test how the layout looked. I reverted to Balsamiq when considering changes in the project's design.
 
 - **[GTMetrix](https://gtmetrix.com/)**
-    - GTMetrix was used to test the loading speed of each page and to find out if any elements were creating long loading times.
+    - GTMetrix was used to test the loading speed of the site and to find out if any elements were creating long loading times.
 
 - **[W3C HTML Validator](https://validator.w3.org/)**
     - The W3C HTML Validator checked the website for HTML validity errors.
@@ -199,7 +201,9 @@ I tested the desktop functionality of the Visit East Cork website on Google Chro
 #### On screen sizes of tablet size and below: 
 - Cards and divs are responsive and will align with the mobile view. 
 
-## Testing
+### Further Testing
+
+[Please follow this link to view the full testing document](https://drive.google.com/file/d/1WEF8KH6VIpwU_CcmEMLlib4j6u0sbjgr/view?usp=sharing)
 
 **W3C HTML Validator**
 * Ran index.html through validator to check there were no syntax errors: 

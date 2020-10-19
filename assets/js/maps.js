@@ -132,11 +132,11 @@ function loadMap() {
   var input = document.getElementById("search");
   var searchBox = new google.maps.places.SearchBox(input);
   map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
-  var options = {
+  var option = {
     bounds: defaultBounds,
     types: ["establishment"],
   };
-  var autocomplete = new google.maps.places.Autocomplete(input, options);
+  var autocomplete = new google.maps.places.Autocomplete(input, option);
 
   autocomplete.bindTo("defaultBounds", map);
 
