@@ -1,7 +1,6 @@
 /*---------------------------------------- Fonts --------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100,200,300,400,500,600,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;500&display=swap');
 
 body {
   font-family: "Josefin Sans", sans-serif;
@@ -13,29 +12,46 @@ html {
   font-size: 16px;
 }
 
+/*-------------------- Main Sections------------------- */
+
+.section-heading {
+  margin-top: 25px;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  padding-top: 2px;
+  margin-top: 5px;
+  box-shadow: 1px 1px;
+}
+
+.card-title {
+  margin-top: 15px;
+}
+
+.card-body {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.logo-wrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
 /*---------------------------------------- Navbar --------------------------------------*/
-/* The below CSS adjusts the styling and sizing of different navbar elements */
 
 .navbar {
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-}
-
-.navbar-nav a {
-  color: #ffffff;
-  font-size: 24px;
-}
-
-.nav-item a {
-  color: #000000;
-  border-bottom: 1px solid transparent;
-}
-
-.nav-item a:hover {
-  color: #000000;
-  border-bottom: 1px solid;
 }
 
 .navbar-brand {
@@ -46,23 +62,9 @@ html {
 .navbar-nav {
   text-align: center;
 }
-.navbar-toggler:focus {
-  outline-color: transparent;
-}
 
 /*----------------------------------- Buttons------------------------------- */
 /* The below CSS adjusts the colours and responsivness of buttons throughout the website in order to maintain the website's style */
-.btn-nav {
-  background-color: rgba(87, 202, 255, 1) !important;
-  border-color: rgba(87, 202, 255, 1) !important;
-  border-bottom: transparent;
-}
-
-.btn-nav:hover {
-  background-color: rgba(0, 136, 122, 0.5) !important;
-  border-color: rgba(137, 223, 214, 0.5) !important;
-  border-bottom: transparent;
-}
 
 .btn {
   margin-top: 5px;
@@ -81,7 +83,7 @@ html {
   border-color: rgba(0, 136, 122, 1) !important;
 }
 
-/* ------------------------Main Images Carousel ---------------------*/
+/* ------------------------Main Image ---------------------*/
 
 .home-image {
   background: url("../images/cobhharbourjpg.jpg") no-repeat center fixed;
@@ -106,50 +108,50 @@ html {
 }
 
 .hero-container {
-height: 400px;
+  height: 400px;
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   position: relative;
   -webkit-animation-name: hero-zoom;
-          animation-name: hero-zoom;
+  animation-name: hero-zoom;
   -webkit-animation-duration: 3s;
-          animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes hero-zoom {
   from {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   to {
     -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
   }
 }
 
 @keyframes hero-zoom {
   from {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   to {
     -webkit-transform: scale(1.05);
-            transform: scale(1.05);
+    transform: scale(1.05);
   }
 }
 
-/* -----------------------footer----------------------------- */
+/* -----------------------Footer----------------------------- */
 .footer-item {
   padding-top: 50px;
 }
@@ -160,132 +162,6 @@ height: 400px;
 
 .social {
   font-size: 32px;
-}
-/* ---------------Maps Section------------------- */
-#map {
-    min-height: 350px;
-    height: 500px;
-  max-height: 500px;
-  min-width: auto;
-  box-shadow: 1px 1px;
-}
-
-.map-section {
-    margin-top: 5px;
-    padding-top: 5px;
-}
-
-.search {
-    text-align: center;
-    max-width: 600px;
-    padding-top: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    }
-
-    .temp {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center!important;
-    }
-
-    .search-box{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center!important;
-    }
-
-.form-control {
-    display: flex;
-    align-items: center;
-    margin-top: 12px;
-    min-width: 300px;
-    max-width: 500px;
-    top: 40px !important;
-    left: 0px !important;
-}
-
-.contact-form-control {
-    display: flex;
-    align-items: center;
-    margin-top: 12px;
-    min-width: 300px;
-    max-width: 500px;
-}
-
-#infowindow-content .title {
-  font-weight: bold;
-}
-
-#infowindow-content {
-  display: none;
-}
-
-#map #infowindow-content {
-  display: inline;
-}
-
-.card {
-    padding-top: 2px;
-    margin-top: 5px;
-    box-shadow: 1px 1px;
-}
-
-.card-title {
-    margin-top: 15px;
-}
-
-.card-body {
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
-.map-info {
-    padding-top: 60px;
-    }
-
-    /* Weather API */
-.weather-container {
-    width: 250px;
-    max-height: 300px;
-    border-radius: 12px;
-    background-color: rgba(0, 136, 122, 1.0);
-    box-shadow: 1px 1px;
-}
-
-.send-btn {
-    margin-top: 25px;
-}
-
-.logo-wrapper {
-    text-align: center;
-    width: 100%;
-}
-
-.logo {
-    height: 100px;
-    width: 100px;
-}
-
-.reset-state {
-    max-width: 200px;
-    text-align: center;
-}
-
-.reset-row {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-}
-
-.section-heading {
-    margin-top: 25px;
-    width: 100%;
-    text-align: center;
-    
 }
 
 .social i {
@@ -301,8 +177,97 @@ height: 400px;
 }
 
 .social li a i:hover {
-  color: rgba(0, 136, 122, 1.0);}
+  color: rgba(0, 136, 122, 1);
+}
 
 .container-wrapper-blue {
   background-color: rgba(87, 202, 255, 1);
+}
+/* ---------------Maps Section------------------- */
+#map {
+  min-height: 350px;
+  height: 500px;
+  max-height: 500px;
+  min-width: auto;
+  box-shadow: 1px 1px;
+}
+
+.map-section {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+.search {
+  text-align: center;
+  max-width: 600px;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center !important;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.map-info {
+  padding-top: 60px;
+}
+
+.reset-state {
+  max-width: 200px;
+  text-align: center;
+}
+
+.reset-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+/*----------------------- contact form ------------------------*/
+.form-control {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  min-width: 300px;
+  max-width: 500px;
+  top: 40px !important;
+  left: 0px !important;
+}
+
+.contact-form-control {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.send-btn {
+  margin-top: 25px;
+}
+
+/* ----------------------Weather API -------------------------*/
+.weather-container {
+  width: 250px;
+  max-height: 300px;
+  border-radius: 12px;
+  background-color: rgba(0, 136, 122, 1);
+  box-shadow: 1px 1px;
 }

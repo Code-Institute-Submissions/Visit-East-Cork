@@ -184,20 +184,14 @@ I used the following languages for the project:
 I utilised Google Chrome's DevTools to test the responsivness of the website at different screen sizes throughout the project. Once the project was approximately 70% complete, I tested it using a Huawei P9 Lite and an Apple iPhone 11 mobile device and an Acer tablet device. The website worked well on all devices.
 I tested the desktop functionality of the Visit East Cork website on Google Chrome and Microsoft Edge.
 
-#### On screen sizes of tablet size and below:
-- The Leadership Goals logo will only display the lion image and not the text. The navbar will compress into a burger icon with a dropdown effect when pressed. 
-- The two card carousel will be replaced with a single card carousel on the homepage.
+#### On screen sizes of tablet size and below: 
 - Cards and divs are responsive and will align with the mobile view. 
-- The galllery will align vertically on the gallery page.
-- The Leadership Goals logo in the footer disappears.
-
-
 
 ## Testing
 
 **W3C HTML Validator**
 * Ran index.html through validator to check there were no syntax errors: 
-    * Failed – 3 images were missing alt tags
+    * Failed – 2 images are missing SRC attributes however these attributes are filled by the Google Place API at line 165 and by the Open Weather Map API at line 225.
         * Alt tags added and tested again
 	* Passed
 
